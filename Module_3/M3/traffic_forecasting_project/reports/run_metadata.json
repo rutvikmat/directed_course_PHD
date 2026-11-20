@@ -1,0 +1,21 @@
+{
+  "run_utc": "2026-11-17T07:41:22.641588+00:00",
+  "python": "3.11.18",
+  "pandas": "3.0.6",
+  "arima_order": [
+    3,
+    0,
+    1
+  ],
+  "horizons_hours": [
+    1,
+    6,
+    24
+  ],
+  "split": {
+    "train_end": "2016-12-13 02:00:00",
+    "validation_end": "2017-11-06 13:00:00"
+  },
+  "rolling_origins_requested": 24,
+  "fast_mode": false
+}

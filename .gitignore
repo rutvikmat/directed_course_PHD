@@ -1,0 +1,9 @@
+cat << 'EOF' > .gitignore
+.venv/
+env/
+__pycache__/
+.DS_Store
+**/electricity.zip
+**/household_power_consumption.txt
+*.joblib
+EOF
