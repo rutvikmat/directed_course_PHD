@@ -1,0 +1,105 @@
+{
+  "stage": "7 - Robustness and generalisation",
+  "dataset": "Wisconsin Diagnostic Breast Cancer; 569 observations, 30 numeric features",
+  "seeds": [
+    300,
+    301,
+    302,
+    303,
+    304,
+    305
+  ],
+  "models": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "conditions": [
+    [
+      "No shift",
+      0.0
+    ],
+    [
+      "Mean shift",
+      0.25
+    ],
+    [
+      "Mean shift",
+      0.5
+    ],
+    [
+      "Mean shift",
+      1.0
+    ],
+    [
+      "Measurement noise",
+      0.25
+    ],
+    [
+      "Measurement noise",
+      0.5
+    ],
+    [
+      "Measurement noise",
+      1.0
+    ],
+    [
+      "MCAR missingness",
+      0.1
+    ],
+    [
+      "MCAR missingness",
+      0.2
+    ],
+    [
+      "MCAR missingness",
+      0.4
+    ],
+    [
+      "Balanced prevalence",
+      1.0
+    ]
+  ],
+  "threshold_profiles": {
+    "Aggressive": {
+      "auc": -0.015,
+      "recall": -0.05,
+      "brier": 0.025,
+      "intercept": 0.35,
+      "slope_low": 0.9,
+      "slope_high": 1.1
+    },
+    "Stage6 baseline": {
+      "auc": -0.03,
+      "recall": -0.1,
+      "brier": 0.05,
+      "intercept": 0.5,
+      "slope_low": 0.8,
+      "slope_high": 1.2
+    },
+    "Conservative": {
+      "auc": -0.05,
+      "recall": -0.15,
+      "brier": 0.08,
+      "intercept": 0.75,
+      "slope_low": 0.7,
+      "slope_high": 1.3
+    }
+  },
+  "split": "Stratified 80:20 train/test; training 70:30 fit/adaptation; adaptation split 50:50 monitoring/update. Monitoring is used for selection only; update subset for fitting; test is held out.",
+  "target": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "design": "Severity sweep for mean shifts (0.25, 0.5, 1.0 SD), Gaussian measurement noise (0.25, 0.5, 1.0 SD), MCAR missingness (10%, 20%, 40%), no-shift control, and balanced outcome resampling. Three threshold profiles test selector sensitivity.",
+  "bootstrap": "1,000 paired bootstrap resamples (as implemented in run_stage7.py); six seed-level split replications. Intervals quantify repeated-split variability, not population-level uncertainty.",
+  "limitations": [
+    "Within-dataset random-split robustness only; no independent external dataset or temporal cohort was available.",
+    "The adaptive selector uses labelled monitoring outcomes and an unshifted paired reference; it is not a deployable unsupervised drift detector.",
+    "Synthetic perturbations do not represent all real clinical shifts.",
+    "Balanced prevalence is created by resampling, not a prospective prior-probability shift.",
+    "The test sample is small; calibration slope/intercept can be unstable.",
+    "Repeated splits overlap in observations; bootstrap intervals are not external-validation confidence intervals.",
+    "No clinical utility or patient-outcome claim is supported.",
+    "Only six seeds and two model families were used in Stage 7."
+  ]
+}

@@ -1,0 +1,6 @@
+scenario,features_KS_p_lt_0_05,features_tested,fraction_features_flagged
+No shift,0,30,0.0
+Covariate mean shift (+0.5 SD),30,30,1.0
+Measurement noise (0.5 SD),6,30,0.2
+MCAR missingness (20%),0,30,0.0
+Outcome prevalence shift (balanced sample),7,30,0.23333333333333334

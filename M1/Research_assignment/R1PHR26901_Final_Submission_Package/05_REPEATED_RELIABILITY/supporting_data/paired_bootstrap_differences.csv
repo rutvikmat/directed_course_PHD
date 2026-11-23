@@ -1,0 +1,241 @@
+scenario,model,strategy_vs,strategy,metric,mean_paired_difference,ci95_lower,ci95_upper,n_seeds,interpretation
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Probability recalibration,brier,-0.14555523442291926,-0.16046566770190446,-0.1309571378598395,5,Negative is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Probability recalibration,calibration_intercept,-5.347023124061252,-6.729629876617312,-4.309040263705117,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Probability recalibration,calibration_slope,-0.9608718658140789,-1.384414855534732,-0.7135547789343722,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Probability recalibration,malignant_recall,0.3314637524469033,0.30177838082315694,0.3610071068838564,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Probability recalibration,accuracy,0.2228070175438596,0.19298245614035087,0.2526315789473684,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Full model retraining,brier,-0.14676765370781336,-0.16042482339050815,-0.13224240762476763,5,Negative is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Full model retraining,roc_auc,0.0017857142857142573,0.0,0.003968253968253954,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Full model retraining,calibration_intercept,-5.759889303832411,-7.68767113282359,-4.467195678245247,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Full model retraining,calibration_slope,-0.28181266401167415,-0.501195533198975,-0.062429794824373365,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Full model retraining,malignant_recall,0.36554134058007853,0.338898366618863,0.398459538173497,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Extra Trees,No update,Full model retraining,accuracy,0.22982456140350874,0.19999999999999998,0.25789473684210523,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Probability recalibration,brier,-0.17938947944609246,-0.20462569927003077,-0.16363998003206465,5,Negative is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Probability recalibration,calibration_intercept,-5.776813151041717,-6.850144184935004,-4.878958246881742,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Probability recalibration,calibration_slope,0.08172126062336287,-0.06731399139178684,0.2035350166083981,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Probability recalibration,malignant_recall,0.3861377317451794,0.3647519962697441,0.40744144139598515,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Probability recalibration,accuracy,0.24210526315789477,0.22456140350877196,0.26666666666666666,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Full model retraining,brier,-0.18132026315251754,-0.20673957387311498,-0.1672774080477822,5,Negative is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Full model retraining,roc_auc,0.001256613756613767,-0.0014550264550264869,0.0037037037037037203,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Full model retraining,calibration_intercept,-6.134206094159453,-7.3031630986424485,-5.326353624833452,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Full model retraining,calibration_slope,0.021266311186146414,-0.13085619624458672,0.15171436940532784,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Full model retraining,malignant_recall,0.39975359215627526,0.37833914053426243,0.4316993101096954,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Logistic Regression,No update,Full model retraining,accuracy,0.2473684210526316,0.2315789473684211,0.27368421052631575,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Probability recalibration,brier,-0.13483964903385623,-0.1495132339678009,-0.1176898731626614,5,Negative is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Probability recalibration,roc_auc,-2.2204460492503132e-17,-6.661338147750939e-17,0.0,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Probability recalibration,calibration_intercept,-3.7494655107020387,-4.679564215644335,-2.9742202020014497,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Probability recalibration,calibration_slope,0.2011198109375954,-0.20558481767036127,0.6917641495009941,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Probability recalibration,malignant_recall,0.348422751257941,0.29212860310421285,0.39959866621425577,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Probability recalibration,accuracy,0.20175438596491233,0.15785087719298246,0.22982456140350882,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Full model retraining,brier,-0.15697460166512348,-0.1784530805818684,-0.13644826599094517,5,Negative is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Full model retraining,roc_auc,0.0090277777777777,0.004398148148148073,0.014616402116402027,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Full model retraining,calibration_intercept,-3.798829867087979,-4.783953846901554,-2.8828653490614125,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Full model retraining,calibration_slope,0.5321647582622748,0.07884167506780766,1.2918480954560772,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Full model retraining,malignant_recall,0.3709701707594161,0.337062869652531,0.40754945476464466,5,Positive is favourable
+Covariate mean shift (+0.5 SD),Random Forest,No update,Full model retraining,accuracy,0.23508771929824562,0.2,0.268421052631579,5,Positive is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Probability recalibration,brier,-0.11971479476707443,-0.13083326358698918,-0.10859632594715966,5,Negative is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Probability recalibration,calibration_intercept,-2.9781179165343237,-3.6389493211815824,-2.43848403459495,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Probability recalibration,calibration_slope,0.1496112944358246,-0.06261062228051026,0.3635783257187143,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Probability recalibration,malignant_recall,0.2539793986308934,0.20613767506331207,0.29672627235813087,5,Positive is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Probability recalibration,accuracy,0.1526315789473684,0.13684210526315788,0.17192982456140346,5,Positive is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Full model retraining,brier,-0.18218688940499522,-0.20182279846819182,-0.16104396912656732,5,Negative is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Full model retraining,roc_auc,0.03749999999999998,0.02804232804232796,0.046957671957672,5,Positive is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Full model retraining,calibration_intercept,-3.354060901624428,-3.9779145619515774,-2.730207241297279,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Full model retraining,calibration_slope,0.37978412292290914,0.22463225880351462,0.6113728560072291,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Full model retraining,malignant_recall,0.3927796992389414,0.37081589086153166,0.41474350761635115,5,Positive is favourable
+Covariate mean shift (+0.5 SD),SVM RBF,No update,Full model retraining,accuracy,0.24561403508771926,0.22280701754385968,0.26842105263157895,5,Positive is favourable
+MCAR missingness (20%),Extra Trees,No update,Probability recalibration,brier,-0.009671365608608578,-0.014512423853887887,-0.003690142242287596,5,Negative is favourable
+MCAR missingness (20%),Extra Trees,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+MCAR missingness (20%),Extra Trees,No update,Probability recalibration,calibration_intercept,1.3107020981786013,0.791084556154231,1.8273043562548836,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Extra Trees,No update,Probability recalibration,calibration_slope,-1.1741901271657054,-1.3863671367163801,-0.9620131176150306,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Extra Trees,No update,Probability recalibration,malignant_recall,-0.04049710742907149,-0.0674336796288016,-0.014622469359311463,5,Positive is favourable
+MCAR missingness (20%),Extra Trees,No update,Probability recalibration,accuracy,0.007017543859649122,-0.0140350877192982,0.031578947368421,5,Positive is favourable
+MCAR missingness (20%),Extra Trees,No update,Full model retraining,brier,-0.0037035796205554987,-0.00735946151876155,0.0010382473857989364,5,Negative is favourable
+MCAR missingness (20%),Extra Trees,No update,Full model retraining,roc_auc,-0.00039682539682541764,-0.002645502645502673,0.002513227513227556,5,Positive is favourable
+MCAR missingness (20%),Extra Trees,No update,Full model retraining,calibration_intercept,0.902496158935507,0.8128513614118387,0.9630403260839697,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Extra Trees,No update,Full model retraining,calibration_slope,-0.1256865976979201,-0.25590592881236796,0.050877168130759286,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Extra Trees,No update,Full model retraining,malignant_recall,-0.03417461256715519,-0.05665486126124393,-0.012113391587075783,5,Positive is favourable
+MCAR missingness (20%),Extra Trees,No update,Full model retraining,accuracy,-0.0017543859649122862,-0.015789473684210485,0.012280701754385915,5,Positive is favourable
+MCAR missingness (20%),Logistic Regression,No update,Probability recalibration,brier,-0.0007942744591082622,-0.0060814892325591575,0.0032910530798810284,5,Negative is favourable
+MCAR missingness (20%),Logistic Regression,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+MCAR missingness (20%),Logistic Regression,No update,Probability recalibration,calibration_intercept,1.1985599207348372,0.8041713307730245,1.5929485106966499,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Logistic Regression,No update,Probability recalibration,calibration_slope,-0.08835256729107865,-0.2956633583222198,0.11498464384835808,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Logistic Regression,No update,Probability recalibration,malignant_recall,-0.04225595184785562,-0.06600221483942414,-0.018446428038331807,5,Positive is favourable
+MCAR missingness (20%),Logistic Regression,No update,Probability recalibration,accuracy,-0.0052631578947368585,-0.012280701754386003,0.0035087719298245723,5,Positive is favourable
+MCAR missingness (20%),Logistic Regression,No update,Full model retraining,brier,-0.001691813774291298,-0.008073178551846139,0.0030179065856982537,5,Negative is favourable
+MCAR missingness (20%),Logistic Regression,No update,Full model retraining,roc_auc,0.0004629629629629761,-0.0010582010582010249,0.0017195767195767654,5,Positive is favourable
+MCAR missingness (20%),Logistic Regression,No update,Full model retraining,calibration_intercept,0.8150703398266443,0.48631790536461195,1.106061332183191,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Logistic Regression,No update,Full model retraining,calibration_slope,-0.12754171550611917,-0.25023957699650906,0.01928868958797745,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Logistic Regression,No update,Full model retraining,malignant_recall,-0.024016749190048325,-0.04355981416957031,-0.004473684210526341,5,Positive is favourable
+MCAR missingness (20%),Logistic Regression,No update,Full model retraining,accuracy,0.0,-0.007017543859649145,0.00877192982456143,5,Positive is favourable
+MCAR missingness (20%),Random Forest,No update,Probability recalibration,brier,-0.014947213163982856,-0.021492969046497012,-0.004189284930899227,5,Negative is favourable
+MCAR missingness (20%),Random Forest,No update,Probability recalibration,roc_auc,-3.3068783068790355e-05,-9.920634920637105e-05,0.0,5,Positive is favourable
+MCAR missingness (20%),Random Forest,No update,Probability recalibration,calibration_intercept,2.025749068460254,1.043599943669348,3.385689827132096,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Random Forest,No update,Probability recalibration,calibration_slope,-0.9435738258395681,-1.4262801485888008,-0.575018246525896,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Random Forest,No update,Probability recalibration,malignant_recall,-0.07587999508902854,-0.12365261377683737,-0.03138003125108561,5,Positive is favourable
+MCAR missingness (20%),Random Forest,No update,Probability recalibration,accuracy,0.0017543859649122862,-0.028070175438596447,0.024561403508771895,5,Positive is favourable
+MCAR missingness (20%),Random Forest,No update,Full model retraining,brier,-0.012262490987346842,-0.01617416759005174,-0.006996200234665901,5,Negative is favourable
+MCAR missingness (20%),Random Forest,No update,Full model retraining,roc_auc,-0.003207671957671976,-0.008829365079365093,0.0036375661375661395,5,Positive is favourable
+MCAR missingness (20%),Random Forest,No update,Full model retraining,calibration_intercept,1.5676331082409107,1.1178153348417763,2.0873503954077615,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Random Forest,No update,Full model retraining,calibration_slope,-1.0347775152252054,-1.9541907090360486,-0.46721115109215106,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),Random Forest,No update,Full model retraining,malignant_recall,-0.07954556749653882,-0.1026281940898037,-0.06422410922410923,5,Positive is favourable
+MCAR missingness (20%),Random Forest,No update,Full model retraining,accuracy,-0.0035087719298245944,-0.022807017543859675,0.015789473684210485,5,Positive is favourable
+MCAR missingness (20%),SVM RBF,No update,Probability recalibration,brier,-0.0010155881996499084,-0.003916496072964822,0.0023095908266225124,5,Negative is favourable
+MCAR missingness (20%),SVM RBF,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+MCAR missingness (20%),SVM RBF,No update,Probability recalibration,calibration_intercept,0.9408946289663696,0.4555274235048793,1.4072890412634704,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),SVM RBF,No update,Probability recalibration,calibration_slope,-0.06166194929469695,-0.18611126096026304,0.06278736237086915,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),SVM RBF,No update,Probability recalibration,malignant_recall,-0.01289036544850497,-0.030099667774086368,0.0,5,Positive is favourable
+MCAR missingness (20%),SVM RBF,No update,Probability recalibration,accuracy,0.0017543859649122862,-0.005263157894736792,0.010526315789473651,5,Positive is favourable
+MCAR missingness (20%),SVM RBF,No update,Full model retraining,brier,0.0007650079307056016,-0.001653672950740973,0.0029227617435995854,5,Negative is favourable
+MCAR missingness (20%),SVM RBF,No update,Full model retraining,roc_auc,-0.0011904761904761641,-0.002711640211640187,0.00033068783068785913,5,Positive is favourable
+MCAR missingness (20%),SVM RBF,No update,Full model retraining,calibration_intercept,0.8423522142990194,0.503912141834499,1.287561886190974,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),SVM RBF,No update,Full model retraining,calibration_slope,-0.13166214089311512,-0.2238787125160925,-0.04208603075232249,5,Closer to 0 (intercept) or 1 (slope) is favourable
+MCAR missingness (20%),SVM RBF,No update,Full model retraining,malignant_recall,-0.018449477351916377,-0.02416957026713127,-0.008554006968641104,5,Positive is favourable
+MCAR missingness (20%),SVM RBF,No update,Full model retraining,accuracy,-2.2204460492503132e-17,-0.007017543859649145,0.0070175438596491,5,Positive is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Probability recalibration,brier,-0.007991455746324028,-0.01596492994893046,0.0006241519494176104,5,Negative is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Probability recalibration,calibration_intercept,0.02390832741400597,-0.3861426048147119,0.466700313322176,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Probability recalibration,calibration_slope,-1.4457214809550671,-1.7564896422798992,-1.1270567077125393,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Probability recalibration,malignant_recall,0.007916037020135902,-0.029235880398671043,0.04342776965101351,5,Positive is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Probability recalibration,accuracy,0.005263157894736792,-0.010570175438596566,0.019298245614035058,5,Positive is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Full model retraining,brier,-0.004879590878689362,-0.007719009194882019,-0.002340289529324002,5,Negative is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Full model retraining,roc_auc,0.000661375661375696,-0.004431216931216864,0.004497354497354533,5,Positive is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Full model retraining,calibration_intercept,-0.6928132976258108,-0.869146760810227,-0.5591552779365007,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Full model retraining,calibration_slope,-0.10635394419809478,-0.46799269759261647,0.17140030498786585,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Full model retraining,malignant_recall,0.0639314505205156,0.04169272461955389,0.08895100470231795,5,Positive is favourable
+Measurement noise (0.5 SD),Extra Trees,No update,Full model retraining,accuracy,0.012280701754385958,-0.0035087719298246165,0.026315789473684202,5,Positive is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Probability recalibration,brier,0.0023679375098054857,-0.001302254831090878,0.00712590141857931,5,Negative is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Probability recalibration,calibration_intercept,0.11827682381512084,-0.13083416107668713,0.36738780870692883,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Probability recalibration,calibration_slope,0.19393800410478754,0.04525399218424997,0.36239540532765485,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Probability recalibration,malignant_recall,-0.007460482203606222,-0.028569787650133273,0.013648823242920827,5,Positive is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Probability recalibration,accuracy,-0.0035087719298245944,-0.012280701754385958,0.00526315789473677,5,Positive is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Full model retraining,brier,-0.004703641670797587,-0.00945902276569247,0.0016452145820286216,5,Negative is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Full model retraining,roc_auc,0.0013227513227513476,-0.0015873015873015372,0.0041005291005290715,5,Positive is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Full model retraining,calibration_intercept,-0.21959223374666292,-0.4357186622733639,0.010528428359394016,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Full model retraining,calibration_slope,0.17162207619262848,0.016139389369685203,0.31457918387187683,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Full model retraining,malignant_recall,0.02965754204638025,0.01117801874183042,0.048249255163359116,5,Positive is favourable
+Measurement noise (0.5 SD),Logistic Regression,No update,Full model retraining,accuracy,0.01578947368421053,0.0,0.03157894736842106,5,Positive is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Probability recalibration,brier,-0.010032232485255099,-0.019881034968613615,-0.0008323238329613722,5,Negative is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Probability recalibration,calibration_intercept,0.012107479698342671,-0.2894480872615893,0.35976174062926125,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Probability recalibration,calibration_slope,-1.4063694528612736,-1.8740943096505736,-1.052250627011352,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Probability recalibration,malignant_recall,-0.00581884559331598,-0.029208472686733523,0.016387027606539827,5,Positive is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Probability recalibration,accuracy,-0.005263157894736792,-0.012280701754385915,0.0035087719298245723,5,Positive is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Full model retraining,brier,-0.009185358966472204,-0.011801698401998075,-0.006804796535909753,5,Negative is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Full model retraining,roc_auc,-0.0018518518518518823,-0.00661375661375665,0.002711640211640187,5,Positive is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Full model retraining,calibration_intercept,-0.37510302833542253,-0.5731691025736814,-0.13805394013622868,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Full model retraining,calibration_slope,-0.6796350719917446,-1.2074237842126503,-0.2430862625852129,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Full model retraining,malignant_recall,0.027653744647940105,0.0034595635430038517,0.05243216737495913,5,Positive is favourable
+Measurement noise (0.5 SD),Random Forest,No update,Full model retraining,accuracy,-0.001754385964912264,-0.010526315789473651,0.0052631578947368585,5,Positive is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Probability recalibration,brier,-0.0011720624357726673,-0.003322553354122987,0.0019641426743575744,5,Negative is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Probability recalibration,calibration_intercept,-0.31151820676627595,-0.7097481580125897,0.08282874350763354,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Probability recalibration,calibration_slope,-0.16326662023154365,-0.28717853349499417,-0.03935470696809316,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Probability recalibration,malignant_recall,-0.0031846054457070894,-0.021363438992618323,0.013228062371809134,5,Positive is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Probability recalibration,accuracy,-0.0070175438596491,-0.01578947368421051,0.0017543859649123083,5,Positive is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Full model retraining,brier,-0.0015836447436914634,-0.004774136612567844,0.0016068471251849167,5,Negative is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Full model retraining,roc_auc,0.0015542328042328136,-0.00036375661375658285,0.0029761904761905545,5,Positive is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Full model retraining,calibration_intercept,-0.4721727792381394,-0.6077340908766093,-0.3245997975317887,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Full model retraining,calibration_slope,-0.1338898731613491,-0.257337768713788,-0.0033268370227866216,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Full model retraining,malignant_recall,0.017776522872768364,-0.021110115163047217,0.05234422403150749,5,Positive is favourable
+Measurement noise (0.5 SD),SVM RBF,No update,Full model retraining,accuracy,0.007017543859649145,-0.010526315789473672,0.019298245614035148,5,Positive is favourable
+No shift,Extra Trees,No update,Probability recalibration,brier,-0.0019272094619985796,-0.004950200542600476,0.0017382376394549017,5,Negative is favourable
+No shift,Extra Trees,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+No shift,Extra Trees,No update,Probability recalibration,calibration_intercept,0.41811649040452287,-0.14761554341591238,0.9617652865096036,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Extra Trees,No update,Probability recalibration,calibration_slope,-0.7957004626854907,-0.9800186586267075,-0.6113822667442739,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Extra Trees,No update,Probability recalibration,malignant_recall,-0.01931940545691808,-0.03189416919447254,-0.007097183234695858,5,Positive is favourable
+No shift,Extra Trees,No update,Probability recalibration,accuracy,0.005263157894736836,-0.008771929824561365,0.017543859649122796,5,Positive is favourable
+No shift,Extra Trees,No update,Full model retraining,brier,-0.002290239841472496,-0.003864023060369947,-0.00024166746150012657,5,Negative is favourable
+No shift,Extra Trees,No update,Full model retraining,roc_auc,0.001653439153439118,-0.0011904761904762084,0.004829695767195711,5,Positive is favourable
+No shift,Extra Trees,No update,Full model retraining,calibration_intercept,0.08110509824172214,-0.12525142354586513,0.20074024439823082,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Extra Trees,No update,Full model retraining,calibration_slope,-0.038796008222698485,-0.24594756103420248,0.141583647910449,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Extra Trees,No update,Full model retraining,malignant_recall,-0.007535485714972268,-0.016844065205060564,0.0006222639149468412,5,Positive is favourable
+No shift,Extra Trees,No update,Full model retraining,accuracy,0.0,-0.010526315789473651,0.008771929824561408,5,Positive is favourable
+No shift,Logistic Regression,No update,Probability recalibration,brier,0.0012819982320970064,-3.252618692044309e-05,0.002580670330666693,5,Negative is favourable
+No shift,Logistic Regression,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+No shift,Logistic Regression,No update,Probability recalibration,calibration_intercept,0.48498568488913285,0.22014012641331634,0.7539465064465534,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Logistic Regression,No update,Probability recalibration,calibration_slope,0.08922025796779871,-0.07258486824411559,0.2159813890789831,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Logistic Regression,No update,Probability recalibration,malignant_recall,-0.01837776517300056,-0.04628474191718661,0.0,5,Positive is favourable
+No shift,Logistic Regression,No update,Probability recalibration,accuracy,-0.005263157894736836,-0.01578947368421051,0.0,5,Positive is favourable
+No shift,Logistic Regression,No update,Full model retraining,brier,-0.0006602702064265956,-0.003217747853721907,0.0015758730771049992,5,Negative is favourable
+No shift,Logistic Regression,No update,Full model retraining,roc_auc,0.0012566137566137892,-0.0014550264550264869,0.0037037037037037424,5,Positive is favourable
+No shift,Logistic Regression,No update,Full model retraining,calibration_intercept,0.13435524411850946,0.03603930446024604,0.2649058463766835,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Logistic Regression,No update,Full model retraining,calibration_slope,0.023394690469952704,-0.13039585591780792,0.15474996652604683,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Logistic Regression,No update,Full model retraining,malignant_recall,-0.009407665505226492,-0.02392566782810688,0.00987224157955866,5,Positive is favourable
+No shift,Logistic Regression,No update,Full model retraining,accuracy,-0.0017543859649122862,-0.0070175438596491,0.003508771929824528,5,Positive is favourable
+No shift,Random Forest,No update,Probability recalibration,brier,0.0010883461864016175,-0.0020315081912177036,0.0040418261209710545,5,Negative is favourable
+No shift,Random Forest,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+No shift,Random Forest,No update,Probability recalibration,calibration_intercept,0.22375151336965407,-0.20683698589485583,0.5438363231309052,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Random Forest,No update,Probability recalibration,calibration_slope,-0.13390906559489305,-0.440630985270276,0.3780205635194135,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Random Forest,No update,Probability recalibration,malignant_recall,-0.010048309178743952,-0.03527950310559007,0.020330572808833644,5,Positive is favourable
+No shift,Random Forest,No update,Probability recalibration,accuracy,-0.0035087719298245723,-0.007017543859649145,0.0,5,Positive is favourable
+No shift,Random Forest,No update,Full model retraining,brier,-0.0013065604361440421,-0.00309497539748337,0.0004872894704570759,5,Negative is favourable
+No shift,Random Forest,No update,Full model retraining,roc_auc,6.613756613751409e-05,-0.0049603174603175095,0.0035714285714285366,5,Positive is favourable
+No shift,Random Forest,No update,Full model retraining,calibration_intercept,0.017181578723284352,-0.07491730334590041,0.13075908553370919,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Random Forest,No update,Full model retraining,calibration_slope,-0.028547417276942034,-0.23173195804953628,0.09827870359723372,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,Random Forest,No update,Full model retraining,malignant_recall,0.004649317091177552,-0.006984126984127004,0.017188999630860114,5,Positive is favourable
+No shift,Random Forest,No update,Full model retraining,accuracy,0.0017543859649122862,0.0,0.0052631578947368585,5,Positive is favourable
+No shift,SVM RBF,No update,Probability recalibration,brier,0.001092893097237424,-0.0012470984519509488,0.0034328846464257968,5,Negative is favourable
+No shift,SVM RBF,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+No shift,SVM RBF,No update,Probability recalibration,calibration_intercept,0.2574592850189571,-0.3153054859708503,0.825559359679316,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,SVM RBF,No update,Probability recalibration,calibration_slope,-0.05268156250854317,-0.14910562833453997,0.04047126893953614,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,SVM RBF,No update,Probability recalibration,malignant_recall,-0.01123760709656787,-0.027745543604504364,0.00024390243902439046,5,Positive is favourable
+No shift,SVM RBF,No update,Probability recalibration,accuracy,0.0017543859649123083,-0.0070175438596491,0.01052631578947374,5,Positive is favourable
+No shift,SVM RBF,No update,Full model retraining,brier,0.00014372479049846906,-0.001750664429513825,0.0027774043324878097,5,Negative is favourable
+No shift,SVM RBF,No update,Full model retraining,roc_auc,0.0008597883597883272,-6.661338147750939e-17,0.0018518518518517934,5,Positive is favourable
+No shift,SVM RBF,No update,Full model retraining,calibration_intercept,-0.013926582758855966,-0.12412787814820872,0.08222774039744356,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,SVM RBF,No update,Full model retraining,calibration_slope,-0.023325666892453013,-0.09167113987753614,0.051597236424402684,5,Closer to 0 (intercept) or 1 (slope) is favourable
+No shift,SVM RBF,No update,Full model retraining,malignant_recall,0.004430084001836665,-0.0005425006077303784,0.013710801393728178,5,Positive is favourable
+No shift,SVM RBF,No update,Full model retraining,accuracy,0.0035087719298245723,-0.0035087719298245723,0.00877192982456143,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Probability recalibration,brier,0.0022200372517439727,-0.0038311577359705917,0.008271232239458536,5,Negative is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Probability recalibration,calibration_intercept,1.741103525656013,0.3010673219879849,3.9644903167201293,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Probability recalibration,calibration_slope,-1.003251106724233,-1.7560495777704037,-0.5610490607207298,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Probability recalibration,malignant_recall,-0.03267708137273355,-0.051890331890331876,-0.014726143421795613,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Probability recalibration,accuracy,0.0047619047619047675,-0.004761904761904745,0.01428571428571428,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Full model retraining,brier,-0.0003729475227742758,-0.004855829108708054,0.004109934063159503,5,Negative is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Full model retraining,roc_auc,0.0016439909297052192,-0.0009070294784580213,0.004931972789115613,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Full model retraining,calibration_intercept,-1.0037843064218719,-4.020632348424104,0.6851087227220536,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Full model retraining,calibration_slope,6.180910333040716,-0.07099917232547721,18.417508841857313,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Full model retraining,malignant_recall,-0.019927849927849926,-0.036291486291486284,-0.003492063492063502,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Extra Trees,No update,Full model retraining,accuracy,0.007142857142857162,-0.004761904761904745,0.023809523809523857,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Probability recalibration,brier,0.0025381360138442377,-0.0033570417179268766,0.007486412945816682,5,Negative is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Probability recalibration,calibration_intercept,1.4809662581862677,0.7333063133972543,2.5777984640918925,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Probability recalibration,calibration_slope,0.14081291961331902,-0.025164473247567366,0.32369141606941065,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Probability recalibration,malignant_recall,-0.050335917312661495,-0.06406251969496439,-0.03683620092014874,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Probability recalibration,accuracy,-0.019047619047619025,-0.02857142857142856,-0.011904761904761862,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Full model retraining,brier,-0.0023929127281110815,-0.006459471053862592,0.0016736455976404281,5,Negative is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Full model retraining,roc_auc,0.0014739229024943734,0.00011337868480731927,0.002721088435374175,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Full model retraining,calibration_intercept,0.7972889047700085,0.5852871184346664,1.1345618503480448,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Full model retraining,calibration_slope,0.08722494625593191,-0.10865583941945259,0.262738632193179,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Full model retraining,malignant_recall,-0.018931475029036027,-0.03333333333333337,-0.004413472706155641,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Logistic Regression,No update,Full model retraining,accuracy,0.0,-0.011904761904761928,0.009523809523809556,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Probability recalibration,brier,0.00685670772724613,0.0010005680499632047,0.013555604278305471,5,Negative is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Probability recalibration,calibration_intercept,6.507133462520135,0.35876692429272583,18.126689475524994,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Probability recalibration,calibration_slope,3.69039972524642,-0.4423370077927896,11.79583923239009,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Probability recalibration,malignant_recall,-0.02634920287951188,-0.054189730971279215,0.01206349206349211,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Probability recalibration,accuracy,-0.0023809523809523504,-0.016666666666666653,0.014285714285714323,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Full model retraining,brier,0.00183550197217371,-0.004122727133714745,0.007845889019998536,5,Negative is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Full model retraining,roc_auc,0.0005102040816326702,-0.0015873015873015817,0.0030045351473923176,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Full model retraining,calibration_intercept,7.1121454873951295,0.4551960386662124,20.142457583103806,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Full model retraining,calibration_slope,-3.391317612420619,-10.197873591846491,0.055249726757233386,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Full model retraining,malignant_recall,-0.027592499886950027,-0.04864722223541575,-0.00210607820363915,5,Positive is favourable
+Outcome prevalence shift (balanced sample),Random Forest,No update,Full model retraining,accuracy,2.2204460492503132e-17,-0.01428571428571428,0.014285714285714323,5,Positive is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Probability recalibration,brier,0.0018242320753066095,-0.0009998969971359481,0.004674671475499633,5,Negative is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Probability recalibration,roc_auc,0.0,0.0,0.0,5,Positive is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Probability recalibration,calibration_intercept,0.8896848818228312,0.14249981427424613,1.6971010873535655,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Probability recalibration,calibration_slope,0.04800975852533991,-0.13820191718070102,0.21642380441567108,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Probability recalibration,malignant_recall,-0.01262193280344157,-0.030492801771871525,0.000686870323852773,5,Positive is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Probability recalibration,accuracy,0.0023809523809524167,-0.01428571428571428,0.01666666666666672,5,Positive is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Full model retraining,brier,0.002251473720680032,-0.0017622006518462443,0.007718185491383758,5,Negative is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Full model retraining,roc_auc,-0.0006802721088434938,-0.001927437641723273,0.0004535147392290328,5,Positive is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Full model retraining,calibration_intercept,0.9072304240578045,0.6077558698346212,1.2782862384976035,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Full model retraining,calibration_slope,0.007015297931226239,-0.17156050540014461,0.18582223869004444,5,Closer to 0 (intercept) or 1 (slope) is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Full model retraining,malignant_recall,-0.013176784455854218,-0.031385281385281405,0.0009357696566999029,5,Positive is favourable
+Outcome prevalence shift (balanced sample),SVM RBF,No update,Full model retraining,accuracy,0.0023809523809523946,-0.011904761904761908,0.016666666666666698,5,Positive is favourable

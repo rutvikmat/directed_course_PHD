@@ -1,0 +1,29 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn; 569 x 30)",
+  "split": "Stratified 80:20 outer train/test; training partition split 70:30 into model-fit and adaptation/calibration subsets",
+  "random_state": 42,
+  "target": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "strategies": {
+    "No update": "Original model trained on fit subset; no adaptation.",
+    "Probability recalibration": "Original model fixed; logistic recalibration fitted on separate labelled adaptation subset transformed with same shift; evaluated on separate shifted test set.",
+    "Full model retraining": "Same model family refitted on the full training partition transformed/resampled to the scenario distribution; evaluated on a separate shifted test set."
+  },
+  "calibration_metrics": "Calibration intercept and slope from logistic regression of outcome on logit(predicted P(benign)); ideal intercept=0 and slope=1.",
+  "scenarios": [
+    "No shift",
+    "Covariate mean shift (+0.5 SD)",
+    "Measurement noise (0.5 SD)",
+    "MCAR missingness (20%)",
+    "Outcome prevalence shift (balanced sample)"
+  ],
+  "caveats": [
+    "Synthetic shifts do not represent real clinical/hospital/time shifts.",
+    "The prevalence scenario uses balanced resampling of available labelled samples, not a prospective prevalence-shift cohort.",
+    "Adaptation labels are assumed available; this is a supervised updating experiment.",
+    "Small test sample means calibration slope/intercept may be unstable.",
+    "No external validation or confidence intervals are included."
+  ]
+}

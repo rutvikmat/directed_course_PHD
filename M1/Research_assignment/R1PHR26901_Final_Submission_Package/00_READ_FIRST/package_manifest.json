@@ -1,0 +1,16 @@
+{
+  "package": "R1PHR26901 Final Coursework Submission Package",
+  "created": "2026-11-23",
+  "primary_report": "01_MAIN_REPORT/Final_Coursework_Report.docx",
+  "primary_report_pdf": "01_MAIN_REPORT/Final_Coursework_Report.pdf",
+  "research_scope": "Within-dataset WDBC evaluation with synthetic shifts; no external validation performed.",
+  "stages": {
+    "baseline": "Five classifiers, one stratified holdout split and five-fold CV on training set.",
+    "stage3": "Controlled synthetic shift experiments; four model families.",
+    "stage4": "No update vs probability recalibration vs full retraining.",
+    "stage5": "10 seeds (200\u2013209), Logistic Regression and Random Forest.",
+    "stage6": "10 seeds (200\u2013209), adaptive strategy selector using labelled monitoring data.",
+    "stage7": "6 seeds (300\u2013305), 2 model families, 11 conditions, 3 selector threshold profiles; 1,000 paired bootstrap resamples."
+  },
+  "caveat": "Not clinical validation, external validation, temporal validation or deployment-ready model."
+}

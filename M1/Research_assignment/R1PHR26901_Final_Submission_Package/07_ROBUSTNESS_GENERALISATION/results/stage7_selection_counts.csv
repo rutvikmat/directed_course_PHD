@@ -1,0 +1,99 @@
+condition,severity,model,threshold_profile,selected_policy,count
+Balanced prevalence,1.0,Logistic Regression,Aggressive,Probability recalibration,6
+Balanced prevalence,1.0,Logistic Regression,Conservative,Probability recalibration,6
+Balanced prevalence,1.0,Logistic Regression,Stage6 baseline,Probability recalibration,6
+Balanced prevalence,1.0,Random Forest,Aggressive,Probability recalibration,6
+Balanced prevalence,1.0,Random Forest,Conservative,No update,1
+Balanced prevalence,1.0,Random Forest,Conservative,Probability recalibration,5
+Balanced prevalence,1.0,Random Forest,Stage6 baseline,No update,1
+Balanced prevalence,1.0,Random Forest,Stage6 baseline,Probability recalibration,5
+MCAR missingness,0.1,Logistic Regression,Aggressive,Probability recalibration,6
+MCAR missingness,0.1,Logistic Regression,Conservative,No update,2
+MCAR missingness,0.1,Logistic Regression,Conservative,Probability recalibration,4
+MCAR missingness,0.1,Logistic Regression,Stage6 baseline,Probability recalibration,6
+MCAR missingness,0.1,Random Forest,Aggressive,Probability recalibration,6
+MCAR missingness,0.1,Random Forest,Conservative,No update,1
+MCAR missingness,0.1,Random Forest,Conservative,Probability recalibration,5
+MCAR missingness,0.1,Random Forest,Stage6 baseline,No update,1
+MCAR missingness,0.1,Random Forest,Stage6 baseline,Probability recalibration,5
+MCAR missingness,0.2,Logistic Regression,Aggressive,Probability recalibration,6
+MCAR missingness,0.2,Logistic Regression,Conservative,No update,2
+MCAR missingness,0.2,Logistic Regression,Conservative,Probability recalibration,4
+MCAR missingness,0.2,Logistic Regression,Stage6 baseline,Probability recalibration,6
+MCAR missingness,0.2,Random Forest,Aggressive,Full model retraining,1
+MCAR missingness,0.2,Random Forest,Aggressive,Probability recalibration,5
+MCAR missingness,0.2,Random Forest,Conservative,Probability recalibration,6
+MCAR missingness,0.2,Random Forest,Stage6 baseline,Probability recalibration,6
+MCAR missingness,0.4,Logistic Regression,Aggressive,Full model retraining,4
+MCAR missingness,0.4,Logistic Regression,Aggressive,Probability recalibration,2
+MCAR missingness,0.4,Logistic Regression,Conservative,No update,2
+MCAR missingness,0.4,Logistic Regression,Conservative,Probability recalibration,4
+MCAR missingness,0.4,Logistic Regression,Stage6 baseline,Full model retraining,1
+MCAR missingness,0.4,Logistic Regression,Stage6 baseline,Probability recalibration,5
+MCAR missingness,0.4,Random Forest,Aggressive,Full model retraining,6
+MCAR missingness,0.4,Random Forest,Conservative,Full model retraining,2
+MCAR missingness,0.4,Random Forest,Conservative,Probability recalibration,4
+MCAR missingness,0.4,Random Forest,Stage6 baseline,Full model retraining,5
+MCAR missingness,0.4,Random Forest,Stage6 baseline,Probability recalibration,1
+Mean shift,0.25,Logistic Regression,Aggressive,Full model retraining,5
+Mean shift,0.25,Logistic Regression,Aggressive,Probability recalibration,1
+Mean shift,0.25,Logistic Regression,Conservative,Full model retraining,4
+Mean shift,0.25,Logistic Regression,Conservative,Probability recalibration,2
+Mean shift,0.25,Logistic Regression,Stage6 baseline,Full model retraining,4
+Mean shift,0.25,Logistic Regression,Stage6 baseline,Probability recalibration,2
+Mean shift,0.25,Random Forest,Aggressive,Full model retraining,6
+Mean shift,0.25,Random Forest,Conservative,Full model retraining,3
+Mean shift,0.25,Random Forest,Conservative,Probability recalibration,3
+Mean shift,0.25,Random Forest,Stage6 baseline,Full model retraining,3
+Mean shift,0.25,Random Forest,Stage6 baseline,Probability recalibration,3
+Mean shift,0.5,Logistic Regression,Aggressive,Full model retraining,6
+Mean shift,0.5,Logistic Regression,Conservative,Full model retraining,6
+Mean shift,0.5,Logistic Regression,Stage6 baseline,Full model retraining,6
+Mean shift,0.5,Random Forest,Aggressive,Full model retraining,6
+Mean shift,0.5,Random Forest,Conservative,Full model retraining,6
+Mean shift,0.5,Random Forest,Stage6 baseline,Full model retraining,6
+Mean shift,1.0,Logistic Regression,Aggressive,Full model retraining,6
+Mean shift,1.0,Logistic Regression,Conservative,Full model retraining,6
+Mean shift,1.0,Logistic Regression,Stage6 baseline,Full model retraining,6
+Mean shift,1.0,Random Forest,Aggressive,Full model retraining,6
+Mean shift,1.0,Random Forest,Conservative,Full model retraining,6
+Mean shift,1.0,Random Forest,Stage6 baseline,Full model retraining,6
+Measurement noise,0.25,Logistic Regression,Aggressive,Probability recalibration,6
+Measurement noise,0.25,Logistic Regression,Conservative,No update,2
+Measurement noise,0.25,Logistic Regression,Conservative,Probability recalibration,4
+Measurement noise,0.25,Logistic Regression,Stage6 baseline,Probability recalibration,6
+Measurement noise,0.25,Random Forest,Aggressive,Full model retraining,1
+Measurement noise,0.25,Random Forest,Aggressive,Probability recalibration,5
+Measurement noise,0.25,Random Forest,Conservative,No update,1
+Measurement noise,0.25,Random Forest,Conservative,Probability recalibration,5
+Measurement noise,0.25,Random Forest,Stage6 baseline,No update,1
+Measurement noise,0.25,Random Forest,Stage6 baseline,Probability recalibration,5
+Measurement noise,0.5,Logistic Regression,Aggressive,Full model retraining,2
+Measurement noise,0.5,Logistic Regression,Aggressive,Probability recalibration,4
+Measurement noise,0.5,Logistic Regression,Conservative,Probability recalibration,6
+Measurement noise,0.5,Logistic Regression,Stage6 baseline,Probability recalibration,6
+Measurement noise,0.5,Random Forest,Aggressive,Full model retraining,3
+Measurement noise,0.5,Random Forest,Aggressive,Probability recalibration,3
+Measurement noise,0.5,Random Forest,Conservative,Full model retraining,1
+Measurement noise,0.5,Random Forest,Conservative,Probability recalibration,5
+Measurement noise,0.5,Random Forest,Stage6 baseline,Full model retraining,1
+Measurement noise,0.5,Random Forest,Stage6 baseline,Probability recalibration,5
+Measurement noise,1.0,Logistic Regression,Aggressive,Full model retraining,6
+Measurement noise,1.0,Logistic Regression,Conservative,Full model retraining,3
+Measurement noise,1.0,Logistic Regression,Conservative,Probability recalibration,3
+Measurement noise,1.0,Logistic Regression,Stage6 baseline,Full model retraining,4
+Measurement noise,1.0,Logistic Regression,Stage6 baseline,Probability recalibration,2
+Measurement noise,1.0,Random Forest,Aggressive,Full model retraining,6
+Measurement noise,1.0,Random Forest,Conservative,Full model retraining,1
+Measurement noise,1.0,Random Forest,Conservative,Probability recalibration,5
+Measurement noise,1.0,Random Forest,Stage6 baseline,Full model retraining,6
+No shift,0.0,Logistic Regression,Aggressive,Probability recalibration,6
+No shift,0.0,Logistic Regression,Conservative,No update,1
+No shift,0.0,Logistic Regression,Conservative,Probability recalibration,5
+No shift,0.0,Logistic Regression,Stage6 baseline,Probability recalibration,6
+No shift,0.0,Random Forest,Aggressive,No update,1
+No shift,0.0,Random Forest,Aggressive,Probability recalibration,5
+No shift,0.0,Random Forest,Conservative,No update,2
+No shift,0.0,Random Forest,Conservative,Probability recalibration,4
+No shift,0.0,Random Forest,Stage6 baseline,No update,1
+No shift,0.0,Random Forest,Stage6 baseline,Probability recalibration,5

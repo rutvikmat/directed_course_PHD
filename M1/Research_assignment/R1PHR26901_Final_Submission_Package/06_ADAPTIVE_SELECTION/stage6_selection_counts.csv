@@ -1,0 +1,16 @@
+scenario,model,selected_strategy,count
+Covariate mean shift (+0.5 SD),Logistic Regression,Full model retraining,10
+Covariate mean shift (+0.5 SD),Random Forest,Full model retraining,10
+MCAR missingness (20%),Logistic Regression,No update,2
+MCAR missingness (20%),Logistic Regression,Probability recalibration,8
+MCAR missingness (20%),Random Forest,Probability recalibration,10
+Measurement noise (0.5 SD),Logistic Regression,No update,1
+Measurement noise (0.5 SD),Logistic Regression,Probability recalibration,9
+Measurement noise (0.5 SD),Random Forest,Full model retraining,1
+Measurement noise (0.5 SD),Random Forest,Probability recalibration,9
+No shift,Logistic Regression,No update,1
+No shift,Logistic Regression,Probability recalibration,9
+No shift,Random Forest,No update,1
+No shift,Random Forest,Probability recalibration,9
+Outcome prevalence shift (balanced sample),Logistic Regression,Probability recalibration,10
+Outcome prevalence shift (balanced sample),Random Forest,Probability recalibration,10

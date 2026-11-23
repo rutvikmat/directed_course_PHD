@@ -1,0 +1,41 @@
+scenario,model,target_coverage,actual_coverage,selective_accuracy,retained_n
+No shift,Logistic Regression,0.5,0.5,1.0,57
+No shift,Logistic Regression,0.7,0.7017543859649122,1.0,80
+No shift,Logistic Regression,0.9,0.8947368421052632,0.9901960784313726,102
+No shift,Logistic Regression,1.0,1.0,0.9824561403508771,114
+No shift,Random Forest,0.5,0.5,1.0,57
+No shift,Random Forest,0.7,0.7017543859649122,1.0,80
+No shift,Random Forest,0.9,0.8947368421052632,0.9901960784313726,102
+No shift,Random Forest,1.0,1.0,0.9473684210526315,114
+Covariate mean shift (+0.5 SD),Logistic Regression,0.5,0.5,0.8947368421052632,57
+Covariate mean shift (+0.5 SD),Logistic Regression,0.7,0.7017543859649122,0.725,80
+Covariate mean shift (+0.5 SD),Logistic Regression,0.9,0.8947368421052632,0.6764705882352942,102
+Covariate mean shift (+0.5 SD),Logistic Regression,1.0,1.0,0.6578947368421053,114
+Covariate mean shift (+0.5 SD),Random Forest,0.5,0.5,0.8245614035087719,57
+Covariate mean shift (+0.5 SD),Random Forest,0.7,0.7017543859649122,0.75,80
+Covariate mean shift (+0.5 SD),Random Forest,0.9,0.8947368421052632,0.7156862745098039,102
+Covariate mean shift (+0.5 SD),Random Forest,1.0,1.0,0.6842105263157895,114
+Measurement noise (0.5 SD),Logistic Regression,0.5,0.5,1.0,57
+Measurement noise (0.5 SD),Logistic Regression,0.7,0.7017543859649122,1.0,80
+Measurement noise (0.5 SD),Logistic Regression,0.9,0.8947368421052632,0.9803921568627451,102
+Measurement noise (0.5 SD),Logistic Regression,1.0,1.0,0.9649122807017544,114
+Measurement noise (0.5 SD),Random Forest,0.5,0.5,1.0,57
+Measurement noise (0.5 SD),Random Forest,0.7,0.7017543859649122,1.0,80
+Measurement noise (0.5 SD),Random Forest,0.9,0.8947368421052632,0.9803921568627451,102
+Measurement noise (0.5 SD),Random Forest,1.0,1.0,0.9473684210526315,114
+MCAR missingness (20%),Logistic Regression,0.5,0.5,1.0,57
+MCAR missingness (20%),Logistic Regression,0.7,0.7017543859649122,1.0,80
+MCAR missingness (20%),Logistic Regression,0.9,0.8947368421052632,0.9901960784313726,102
+MCAR missingness (20%),Logistic Regression,1.0,1.0,0.9824561403508771,114
+MCAR missingness (20%),Random Forest,0.5,0.5,1.0,57
+MCAR missingness (20%),Random Forest,0.7,0.7017543859649122,0.9875,80
+MCAR missingness (20%),Random Forest,0.9,0.8947368421052632,0.9705882352941176,102
+MCAR missingness (20%),Random Forest,1.0,1.0,0.956140350877193,114
+Outcome prevalence shift (balanced sample),Logistic Regression,0.5,0.5,1.0,42
+Outcome prevalence shift (balanced sample),Logistic Regression,0.7,0.7023809523809523,1.0,59
+Outcome prevalence shift (balanced sample),Logistic Regression,0.9,0.8928571428571429,0.9866666666666667,75
+Outcome prevalence shift (balanced sample),Logistic Regression,1.0,1.0,0.9880952380952381,84
+Outcome prevalence shift (balanced sample),Random Forest,0.5,0.5,1.0,42
+Outcome prevalence shift (balanced sample),Random Forest,0.7,0.7023809523809523,1.0,59
+Outcome prevalence shift (balanced sample),Random Forest,0.9,0.8928571428571429,1.0,75
+Outcome prevalence shift (balanced sample),Random Forest,1.0,1.0,0.9523809523809523,84

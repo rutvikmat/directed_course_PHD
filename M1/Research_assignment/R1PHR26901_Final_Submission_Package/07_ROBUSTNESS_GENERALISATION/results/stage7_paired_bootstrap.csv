@@ -1,0 +1,397 @@
+condition,severity,model,adaptive_vs,metric,mean_difference,ci95_lower,ci95_upper,n_seeds
+Balanced prevalence,1.0,Logistic Regression,No update,brier,-0.0007688051724766606,-0.0076716002083694525,0.007304190499002047,6
+Balanced prevalence,1.0,Logistic Regression,No update,roc_auc,-0.0018896447467875999,-0.0056689342403628,0.0,6
+Balanced prevalence,1.0,Logistic Regression,No update,malignant_recall,-0.022257582857104424,-0.0439608419891534,-0.004065040650406508,6
+Balanced prevalence,1.0,Logistic Regression,No update,accuracy,-0.001984126984126977,-0.019841269841269882,0.015873015873015928,6
+Balanced prevalence,1.0,Logistic Regression,No update,calibration_intercept,5.40868427542587,2.0785134886773107,8.924626751142256,6
+Balanced prevalence,1.0,Logistic Regression,No update,calibration_slope,-0.9030352470472428,-3.825163468460443,0.9941090761447421,6
+Balanced prevalence,1.0,Logistic Regression,Probability recalibration,brier,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Logistic Regression,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Logistic Regression,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Logistic Regression,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Logistic Regression,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Logistic Regression,Full model retraining,brier,-0.0018646368397418562,-0.006652437192514134,0.0041274738688047985,6
+Balanced prevalence,1.0,Logistic Regression,Full model retraining,roc_auc,-0.0009448223733938091,-0.005385487528344705,0.0017006802721088083,6
+Balanced prevalence,1.0,Logistic Regression,Full model retraining,malignant_recall,-0.014681825281346853,-0.028515817376208546,-0.0036997885835095,6
+Balanced prevalence,1.0,Logistic Regression,Full model retraining,accuracy,-0.0059523809523809494,-0.01587301587301589,0.0039682539682539915,6
+Balanced prevalence,1.0,Logistic Regression,Full model retraining,calibration_intercept,4.166700957171774,-4.738883006778418,15.580899456589568,6
+Balanced prevalence,1.0,Logistic Regression,Full model retraining,calibration_slope,-4.401026623740434,-14.933124146957068,3.675984608190691,6
+Balanced prevalence,1.0,Random Forest,No update,brier,0.005002013005120665,-0.00031418282221919863,0.010677536539370473,6
+Balanced prevalence,1.0,Random Forest,No update,roc_auc,-0.005291005291005291,-0.015873015873015872,0.0,6
+Balanced prevalence,1.0,Random Forest,No update,malignant_recall,-0.018098972622511995,-0.02863636804362833,-0.007399577167019,6
+Balanced prevalence,1.0,Random Forest,No update,accuracy,-0.001984126984127014,-0.009920634920634977,0.007986111111111074,6
+Balanced prevalence,1.0,Random Forest,No update,calibration_intercept,5.137667077330862,0.2958821621404285,11.773259073808267,6
+Balanced prevalence,1.0,Random Forest,No update,calibration_slope,0.46559315815985686,-0.8285624143663449,1.8177600450012763,6
+Balanced prevalence,1.0,Random Forest,Probability recalibration,brier,-0.000410936870568198,-0.001232810611704594,0.0,6
+Balanced prevalence,1.0,Random Forest,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+Balanced prevalence,1.0,Random Forest,Probability recalibration,malignant_recall,0.007298595713229865,0.0,0.021895787139689593,6
+Balanced prevalence,1.0,Random Forest,Probability recalibration,accuracy,0.0019841269841269957,0.0,0.005952380952380987,6
+Balanced prevalence,1.0,Random Forest,Probability recalibration,calibration_intercept,-0.08264119839150898,-0.24792359517452697,0.0,6
+Balanced prevalence,1.0,Random Forest,Probability recalibration,calibration_slope,0.008196210654051905,0.0,0.024588631962155716,6
+Balanced prevalence,1.0,Random Forest,Full model retraining,brier,0.005386130918343491,-0.002963163800043335,0.012536329838998656,6
+Balanced prevalence,1.0,Random Forest,Full model retraining,roc_auc,-0.002645502645502673,-0.01681783824640966,0.008789210128495805,6
+Balanced prevalence,1.0,Random Forest,Full model retraining,malignant_recall,-0.00043302584425665885,-0.025313773325684772,0.02450796296513826,6
+Balanced prevalence,1.0,Random Forest,Full model retraining,accuracy,-0.003968253968253954,-0.015873015873015872,0.007936507936507945,6
+Balanced prevalence,1.0,Random Forest,Full model retraining,calibration_intercept,6.0592472940072035,-0.10481009758679595,15.556535280054545,6
+Balanced prevalence,1.0,Random Forest,Full model retraining,calibration_slope,7.192967756506235,-1.4630274994507255,22.39812764525625,6
+MCAR missingness,0.1,Logistic Regression,No update,brier,0.0020304564895637553,-0.0029971254382313555,0.0069675133048033066,6
+MCAR missingness,0.1,Logistic Regression,No update,roc_auc,-1.850371707708594e-17,-5.551115123125783e-17,0.0,6
+MCAR missingness,0.1,Logistic Regression,No update,malignant_recall,-0.011642185727551583,-0.042861982191250515,0.026261238761238776,6
+MCAR missingness,0.1,Logistic Regression,No update,accuracy,0.004385964912280715,-0.010233918128654948,0.016081871345029253,6
+MCAR missingness,0.1,Logistic Regression,No update,calibration_intercept,3.642916674868717,0.2936354872915888,9.603986241568691,6
+MCAR missingness,0.1,Logistic Regression,No update,calibration_slope,-0.9630649146229212,-3.2365894012749146,0.4778771515416212,6
+MCAR missingness,0.1,Logistic Regression,Probability recalibration,brier,0.0,0.0,0.0,6
+MCAR missingness,0.1,Logistic Regression,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+MCAR missingness,0.1,Logistic Regression,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+MCAR missingness,0.1,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+MCAR missingness,0.1,Logistic Regression,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+MCAR missingness,0.1,Logistic Regression,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+MCAR missingness,0.1,Logistic Regression,Full model retraining,brier,0.003485066118970679,-0.0025358221053783507,0.008603464791043739,6
+MCAR missingness,0.1,Logistic Regression,Full model retraining,roc_auc,0.0009369488536154861,-0.0004960317460318183,0.003527336860670157,6
+MCAR missingness,0.1,Logistic Regression,Full model retraining,malignant_recall,-0.010348109433475286,-0.0418700396825397,0.01749580591044007,6
+MCAR missingness,0.1,Logistic Regression,Full model retraining,accuracy,0.004385964912280734,-0.011695906432748501,0.020467836257309968,6
+MCAR missingness,0.1,Logistic Regression,Full model retraining,calibration_intercept,3.422604836718469,-0.1570750745790959,9.746213046997456,6
+MCAR missingness,0.1,Logistic Regression,Full model retraining,calibration_slope,-1.5793325849893316,-5.229217421020055,0.5692141207163028,6
+MCAR missingness,0.1,Random Forest,No update,brier,-0.001875024246031743,-0.004563085419742428,0.0005364500313323091,6
+MCAR missingness,0.1,Random Forest,No update,roc_auc,2.7557319223973458e-05,0.0,8.267195767192037e-05,6
+MCAR missingness,0.1,Random Forest,No update,malignant_recall,-0.029866265168616773,-0.05255752042636139,-0.007797270955165692,6
+MCAR missingness,0.1,Random Forest,No update,accuracy,0.0029239766081871434,0.0,0.005847953216374287,6
+MCAR missingness,0.1,Random Forest,No update,calibration_intercept,1.2456550526978103,0.2965268665897773,2.288254276011109,6
+MCAR missingness,0.1,Random Forest,No update,calibration_slope,-0.9305442654082885,-1.5508409848705575,-0.3709349424856738,6
+MCAR missingness,0.1,Random Forest,Probability recalibration,brier,0.0008443245882563932,0.0,0.0025329737647691794,6
+MCAR missingness,0.1,Random Forest,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+MCAR missingness,0.1,Random Forest,Probability recalibration,malignant_recall,0.007021433850702141,0.0,0.021064301552106424,6
+MCAR missingness,0.1,Random Forest,Probability recalibration,accuracy,0.0014619883040935717,0.0,0.004385964912280715,6
+MCAR missingness,0.1,Random Forest,Probability recalibration,calibration_intercept,-0.10213361913558383,-0.3064008574067515,0.0,6
+MCAR missingness,0.1,Random Forest,Probability recalibration,calibration_slope,0.025973753845943377,0.0,0.07792126153783013,6
+MCAR missingness,0.1,Random Forest,Full model retraining,brier,0.0026427072893111182,-0.0008366929899711122,0.006454420318541096,6
+MCAR missingness,0.1,Random Forest,Full model retraining,roc_auc,0.0009645061728394966,-0.0022080302028218545,0.004436728395061688,6
+MCAR missingness,0.1,Random Forest,Full model retraining,malignant_recall,-0.006553068103292685,-0.022894106653655804,0.006275692303172351,6
+MCAR missingness,0.1,Random Forest,Full model retraining,accuracy,-0.005847953216374287,-0.010233918128655003,-0.0014619883040935717,6
+MCAR missingness,0.1,Random Forest,Full model retraining,calibration_intercept,0.5354583793980413,-0.22762110429826485,1.4257634906165082,6
+MCAR missingness,0.1,Random Forest,Full model retraining,calibration_slope,-0.454087884804022,-1.1642642731401625,0.06354009381602872,6
+MCAR missingness,0.2,Logistic Regression,No update,brier,-0.004360266511074305,-0.007869331467897875,-0.0005321543422405969,6
+MCAR missingness,0.2,Logistic Regression,No update,roc_auc,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,No update,malignant_recall,-0.0072871572871572865,-0.018654100529100555,0.0006520562770562846,6
+MCAR missingness,0.2,Logistic Regression,No update,accuracy,0.011695906432748518,0.00584795321637425,0.019005847953216342,6
+MCAR missingness,0.2,Logistic Regression,No update,calibration_intercept,3.3702947979251365,0.6879694094122605,8.100421330561847,6
+MCAR missingness,0.2,Logistic Regression,No update,calibration_slope,-0.6224152286482495,-1.6741146613727256,0.23061024825132542,6
+MCAR missingness,0.2,Logistic Regression,Probability recalibration,brier,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+MCAR missingness,0.2,Logistic Regression,Full model retraining,brier,-0.0032555536133078897,-0.008344639192725363,0.0007897484403871742,6
+MCAR missingness,0.2,Logistic Regression,Full model retraining,roc_auc,0.0015432098765432352,-0.001653439153439129,0.0051256613756613945,6
+MCAR missingness,0.2,Logistic Regression,Full model retraining,malignant_recall,0.008398993582059958,-0.01093706488443332,0.03138124482518081,6
+MCAR missingness,0.2,Logistic Regression,Full model retraining,accuracy,0.0058479532163742505,0.0014619883040935533,0.01027046783625727,6
+MCAR missingness,0.2,Logistic Regression,Full model retraining,calibration_intercept,2.6543444918720294,-0.4315043821033181,8.17474933299082,6
+MCAR missingness,0.2,Logistic Regression,Full model retraining,calibration_slope,2.5924390152611534,-0.3000541398911326,7.785876627419134,6
+MCAR missingness,0.2,Random Forest,No update,brier,-0.013702058571523429,-0.016165486687783916,-0.009900265492259084,6
+MCAR missingness,0.2,Random Forest,No update,roc_auc,1.850371707708594e-17,0.0,5.551115123125783e-17,6
+MCAR missingness,0.2,Random Forest,No update,malignant_recall,-0.03759368388865499,-0.055565590996945496,-0.017709798987040275,6
+MCAR missingness,0.2,Random Forest,No update,accuracy,0.016081871345029253,0.00730994152046784,0.024853801169590645,6
+MCAR missingness,0.2,Random Forest,No update,calibration_intercept,1.3295746534563417,0.8544567675322001,1.962605582608481,6
+MCAR missingness,0.2,Random Forest,No update,calibration_slope,-0.9252079403391962,-1.3493420889617695,-0.5118935025508138,6
+MCAR missingness,0.2,Random Forest,Probability recalibration,brier,0.0,0.0,0.0,6
+MCAR missingness,0.2,Random Forest,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+MCAR missingness,0.2,Random Forest,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+MCAR missingness,0.2,Random Forest,Probability recalibration,accuracy,0.0,0.0,0.0,6
+MCAR missingness,0.2,Random Forest,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+MCAR missingness,0.2,Random Forest,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+MCAR missingness,0.2,Random Forest,Full model retraining,brier,0.001372276190008576,-0.0017408477481938623,0.004814998050964388,6
+MCAR missingness,0.2,Random Forest,Full model retraining,roc_auc,-0.003830467372134031,-0.007523148148148158,-0.0011574074074074028,6
+MCAR missingness,0.2,Random Forest,Full model retraining,malignant_recall,0.001967946026369164,-0.016816975447505808,0.021485620322829618,6
+MCAR missingness,0.2,Random Forest,Full model retraining,accuracy,-0.0029239766081871252,-0.017543859649122806,0.010233918128655003,6
+MCAR missingness,0.2,Random Forest,Full model retraining,calibration_intercept,-0.11034408863951489,-0.30859502408820666,0.12016085889415547,6
+MCAR missingness,0.2,Random Forest,Full model retraining,calibration_slope,-0.7730652703183917,-1.2020593170558938,-0.38613514852650277,6
+MCAR missingness,0.4,Logistic Regression,No update,brier,-0.012096953717998552,-0.023977320285950437,0.0012875897897568149,6
+MCAR missingness,0.4,Logistic Regression,No update,roc_auc,0.0009369488536155232,0.0,0.0028108465608465694,6
+MCAR missingness,0.4,Logistic Regression,No update,malignant_recall,-0.05165604829007522,-0.0849657452740378,-0.028187736036573225,6
+MCAR missingness,0.4,Logistic Regression,No update,accuracy,0.017543859649122844,-0.008771929824561394,0.040935672514619936,6
+MCAR missingness,0.4,Logistic Regression,No update,calibration_intercept,2.4544237129615722,1.3875860688476778,3.586728609522338,6
+MCAR missingness,0.4,Logistic Regression,No update,calibration_slope,-0.3671676367598555,-0.8580749723391138,0.14966241975822028,6
+MCAR missingness,0.4,Logistic Regression,Probability recalibration,brier,-0.0007762093938353543,-0.002328628181506063,0.0,6
+MCAR missingness,0.4,Logistic Regression,Probability recalibration,roc_auc,0.0009369488536155232,0.0,0.0028108465608465694,6
+MCAR missingness,0.4,Logistic Regression,Probability recalibration,malignant_recall,-0.004142300194931781,-0.012426900584795342,0.0,6
+MCAR missingness,0.4,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+MCAR missingness,0.4,Logistic Regression,Probability recalibration,calibration_intercept,-0.0008947873568489473,-0.002684362070546842,0.0,6
+MCAR missingness,0.4,Logistic Regression,Probability recalibration,calibration_slope,-0.06335976154367562,-0.19007928463102686,0.0,6
+MCAR missingness,0.4,Logistic Regression,Full model retraining,brier,0.005108726271590779,-0.002317977935034744,0.013738619776082622,6
+MCAR missingness,0.4,Logistic Regression,Full model retraining,roc_auc,-0.0012125220458554242,-0.001818783068783118,-0.0005511463844797652,6
+MCAR missingness,0.4,Logistic Regression,Full model retraining,malignant_recall,-0.016186617682647158,-0.046026685022714474,0.024343405696213405,6
+MCAR missingness,0.4,Logistic Regression,Full model retraining,accuracy,-0.005847953216374269,-0.016081871345029235,0.0029239766081871434,6
+MCAR missingness,0.4,Logistic Regression,Full model retraining,calibration_intercept,0.20789442964967778,-0.28602826455084635,0.6879746026231004,6
+MCAR missingness,0.4,Logistic Regression,Full model retraining,calibration_slope,0.13963879139317628,-0.16544031993162503,0.45350510681073514,6
+MCAR missingness,0.4,Random Forest,No update,brier,-0.050316308505161944,-0.054715930658138616,-0.04420359023907492,6
+MCAR missingness,0.4,Random Forest,No update,roc_auc,0.0033619929453262976,0.001432980599647286,0.005623070987654319,6
+MCAR missingness,0.4,Random Forest,No update,malignant_recall,-0.07164712020683424,-0.0959692240600567,-0.04862000825468025,6
+MCAR missingness,0.4,Random Forest,No update,accuracy,0.09064327485380118,0.07456140350877193,0.108187134502924,6
+MCAR missingness,0.4,Random Forest,No update,calibration_intercept,2.785826773649957,1.864968582708648,3.7236273070704824,6
+MCAR missingness,0.4,Random Forest,No update,calibration_slope,-0.3064606094077083,-0.7990916409166983,0.19125606642459073,6
+MCAR missingness,0.4,Random Forest,Probability recalibration,brier,-0.0046347951315421805,-0.013851958152478527,0.001701986394914421,6
+MCAR missingness,0.4,Random Forest,Probability recalibration,roc_auc,0.0033619929453262976,0.0013503086419753656,0.00542948082010585,6
+MCAR missingness,0.4,Random Forest,Probability recalibration,malignant_recall,-0.002811378689505891,-0.03166863672182818,0.018531641674012667,6
+MCAR missingness,0.4,Random Forest,Probability recalibration,accuracy,0.004385964912280734,-0.0058479532163742505,0.014619883040935719,6
+MCAR missingness,0.4,Random Forest,Probability recalibration,calibration_intercept,0.3002591578110682,-0.13108460164635108,0.8060783333773324,6
+MCAR missingness,0.4,Random Forest,Probability recalibration,calibration_slope,0.3808680147741222,-0.3637438654813627,1.160243135678059,6
+MCAR missingness,0.4,Random Forest,Full model retraining,brier,0.0005190964200900393,0.0,0.0015572892602701179,6
+MCAR missingness,0.4,Random Forest,Full model retraining,roc_auc,-0.0006062610229277121,-0.0018187830687831363,0.0,6
+MCAR missingness,0.4,Random Forest,Full model retraining,malignant_recall,-0.00029036004645760505,-0.0008710801393728151,0.0,6
+MCAR missingness,0.4,Random Forest,Full model retraining,accuracy,-0.0014619883040935533,-0.00438596491228066,0.0,6
+MCAR missingness,0.4,Random Forest,Full model retraining,calibration_intercept,-0.044163920798085864,-0.13249176239425758,0.0,6
+MCAR missingness,0.4,Random Forest,Full model retraining,calibration_slope,-0.11612133682917077,-0.3483640104875123,0.0,6
+Mean shift,0.25,Logistic Regression,No update,brier,-0.03280493771315351,-0.04619713641969947,-0.02267364856640416,6
+Mean shift,0.25,Logistic Regression,No update,roc_auc,-0.000716490299823643,-0.0024801587301587213,0.0003306878306877925,6
+Mean shift,0.25,Logistic Regression,No update,malignant_recall,0.1612383623728277,0.138209646508746,0.18293102216193277,6
+Mean shift,0.25,Logistic Regression,No update,accuracy,0.05555555555555558,0.046783625730994184,0.06871345029239766,6
+Mean shift,0.25,Logistic Regression,No update,calibration_intercept,-11.961632699760672,-21.38063122292398,-3.508896730058755,6
+Mean shift,0.25,Logistic Regression,No update,calibration_slope,0.341474409267553,-0.6905965159366928,1.5624108521589102,6
+Mean shift,0.25,Logistic Regression,Probability recalibration,brier,0.001802088169011791,-0.001982103976787136,0.0062163861600989115,6
+Mean shift,0.25,Logistic Regression,Probability recalibration,roc_auc,0.0011298500881834113,-0.0024801587301587213,0.005042989417989381,6
+Mean shift,0.25,Logistic Regression,Probability recalibration,malignant_recall,0.003968253968253972,-0.007751937984496138,0.015780730897009987,6
+Mean shift,0.25,Logistic Regression,Probability recalibration,accuracy,-0.005847953216374269,-0.013157894736842127,0.0029239766081871434,6
+Mean shift,0.25,Logistic Regression,Probability recalibration,calibration_intercept,-0.6286292249039999,-2.775789179588481,1.4412851899896861,6
+Mean shift,0.25,Logistic Regression,Probability recalibration,calibration_slope,0.4112522208578098,-2.3793652929278966,2.848597792577293,6
+Mean shift,0.25,Logistic Regression,Full model retraining,brier,-0.0005402644313151888,-0.0016657508854312567,4.495759148569027e-05,6
+Mean shift,0.25,Logistic Regression,Full model retraining,roc_auc,0.0002755731922398826,0.0,0.00071649029982368,6
+Mean shift,0.25,Logistic Regression,Full model retraining,malignant_recall,-0.004065040650406508,-0.012195121951219523,0.0,6
+Mean shift,0.25,Logistic Regression,Full model retraining,accuracy,0.0,0.0,0.0,6
+Mean shift,0.25,Logistic Regression,Full model retraining,calibration_intercept,0.13286668272320418,0.0,0.3881549571367788,6
+Mean shift,0.25,Logistic Regression,Full model retraining,calibration_slope,0.08647010700308329,0.0,0.20831748430468514,6
+Mean shift,0.25,Random Forest,No update,brier,-0.037839642472379684,-0.04780939659605571,-0.028612733094132484,6
+Mean shift,0.25,Random Forest,No update,roc_auc,0.001102292768959438,0.00022045855379188017,0.002204585537918876,6
+Mean shift,0.25,Random Forest,No update,malignant_recall,0.15544467421055266,0.10707037577774828,0.19779714256458444,6
+Mean shift,0.25,Random Forest,No update,accuracy,0.06286549707602339,0.04093567251461986,0.08479532163742691,6
+Mean shift,0.25,Random Forest,No update,calibration_intercept,-2.410270946519726,-3.6145407886260603,-1.4143895466655783,6
+Mean shift,0.25,Random Forest,No update,calibration_slope,2.3188174661802807,-0.11026022601485552,6.5402375815266645,6
+Mean shift,0.25,Random Forest,Probability recalibration,brier,-0.004191712613621893,-0.011036607274044067,0.0017211742039105425,6
+Mean shift,0.25,Random Forest,Probability recalibration,roc_auc,0.001102292768959438,0.00022045855379188017,0.002204585537918876,6
+Mean shift,0.25,Random Forest,Probability recalibration,malignant_recall,-5.167517929853075e-05,-0.010435301132975527,0.01153105733366655,6
+Mean shift,0.25,Random Forest,Probability recalibration,accuracy,0.004385964912280697,-0.005847953216374287,0.016081871345029235,6
+Mean shift,0.25,Random Forest,Probability recalibration,calibration_intercept,0.4360037913881985,-0.07968621622358275,0.9516937989999797,6
+Mean shift,0.25,Random Forest,Probability recalibration,calibration_slope,2.310936437735216,-0.012958209839813772,6.720838379269865,6
+Mean shift,0.25,Random Forest,Full model retraining,brier,0.002017357068339933,-0.0004069298656549601,0.0058600620890608066,6
+Mean shift,0.25,Random Forest,Full model retraining,roc_auc,0.002728174603174612,0.0,0.005731922398589069,6
+Mean shift,0.25,Random Forest,Full model retraining,malignant_recall,-0.010400026225324007,-0.02843247590836928,0.007326007326007337,6
+Mean shift,0.25,Random Forest,Full model retraining,accuracy,-0.005847953216374287,-0.011695906432748574,-0.0014619883040935717,6
+Mean shift,0.25,Random Forest,Full model retraining,calibration_intercept,0.07173571819208859,-0.31736518337238795,0.5047117342054012,6
+Mean shift,0.25,Random Forest,Full model retraining,calibration_slope,0.2346379832812687,-0.2798145387193725,0.8729570551282079,6
+Mean shift,0.5,Logistic Regression,No update,brier,-0.16089474237989526,-0.18252126044311906,-0.13879987534267738,6
+Mean shift,0.5,Logistic Regression,No update,roc_auc,-0.0009920634920635256,-0.00270061728395062,0.00016534391534387774,6
+Mean shift,0.5,Logistic Regression,No update,malignant_recall,0.3808543598517706,0.3533924171146954,0.40614398348484776,6
+Mean shift,0.5,Logistic Regression,No update,accuracy,0.21345029239766086,0.18713450292397663,0.24122807017543857,6
+Mean shift,0.5,Logistic Regression,No update,calibration_intercept,-20.558147776412355,-35.87119288960005,-7.687360069898317,6
+Mean shift,0.5,Logistic Regression,No update,calibration_slope,0.9445634242816937,-0.08224311310013524,2.7353385731747033,6
+Mean shift,0.5,Logistic Regression,Probability recalibration,brier,0.0024227785178541853,-0.00145266859371651,0.006623943450849649,6
+Mean shift,0.5,Logistic Regression,Probability recalibration,roc_auc,-0.0009920634920635256,-0.002645502645502673,0.00016672178130507515,6
+Mean shift,0.5,Logistic Regression,Probability recalibration,malignant_recall,0.004065040650406508,-0.007751937984496138,0.016071090943467592,6
+Mean shift,0.5,Logistic Regression,Probability recalibration,accuracy,-0.00730994152046784,-0.016118421052631605,0.0014619883040935717,6
+Mean shift,0.5,Logistic Regression,Probability recalibration,calibration_intercept,-0.7582253996359268,-2.8113677446214895,1.1026964991207349,6
+Mean shift,0.5,Logistic Regression,Probability recalibration,calibration_slope,0.3400005456338257,-1.9383596002479548,2.733576337307048,6
+Mean shift,0.5,Logistic Regression,Full model retraining,brier,0.0,0.0,0.0,6
+Mean shift,0.5,Logistic Regression,Full model retraining,roc_auc,0.0,0.0,0.0,6
+Mean shift,0.5,Logistic Regression,Full model retraining,malignant_recall,0.0,0.0,0.0,6
+Mean shift,0.5,Logistic Regression,Full model retraining,accuracy,0.0,0.0,0.0,6
+Mean shift,0.5,Logistic Regression,Full model retraining,calibration_intercept,0.0,0.0,0.0,6
+Mean shift,0.5,Logistic Regression,Full model retraining,calibration_slope,0.0,0.0,0.0,6
+Mean shift,0.5,Random Forest,No update,brier,-0.14408114211977108,-0.16749131317887056,-0.12172052159822588,6
+Mean shift,0.5,Random Forest,No update,roc_auc,0.009920634920634904,0.003582451499118141,0.017278439153439167,6
+Mean shift,0.5,Random Forest,No update,malignant_recall,0.33292517147030415,0.299821110575332,0.36571289426958004,6
+Mean shift,0.5,Random Forest,No update,accuracy,0.19444444444444442,0.16224415204678364,0.22514619883040932,6
+Mean shift,0.5,Random Forest,No update,calibration_intercept,-2.6375087996955404,-3.66790627877941,-1.2989130152926158,6
+Mean shift,0.5,Random Forest,No update,calibration_slope,2.9773729667231055,0.42155670417984237,7.422187384592984,6
+Mean shift,0.5,Random Forest,Probability recalibration,brier,-0.02509359838037331,-0.040338732056041535,-0.01192926987714315,6
+Mean shift,0.5,Random Forest,Probability recalibration,roc_auc,0.009920634920634904,0.003636188271604961,0.017009066358024617,6
+Mean shift,0.5,Random Forest,Probability recalibration,malignant_recall,0.00925887165992186,-0.036425706192123604,0.07022346352031716,6
+Mean shift,0.5,Random Forest,Probability recalibration,accuracy,0.04093567251461988,0.017507309941520468,0.0629020467836257,6
+Mean shift,0.5,Random Forest,Probability recalibration,calibration_intercept,0.517924762092726,0.012567218579984283,1.040723709193222,6
+Mean shift,0.5,Random Forest,Probability recalibration,calibration_slope,2.2789148470437124,-0.4110814367039613,6.9162540412376226,6
+Mean shift,0.5,Random Forest,Full model retraining,brier,0.0,0.0,0.0,6
+Mean shift,0.5,Random Forest,Full model retraining,roc_auc,0.0,0.0,0.0,6
+Mean shift,0.5,Random Forest,Full model retraining,malignant_recall,0.0,0.0,0.0,6
+Mean shift,0.5,Random Forest,Full model retraining,accuracy,0.0,0.0,0.0,6
+Mean shift,0.5,Random Forest,Full model retraining,calibration_intercept,0.0,0.0,0.0,6
+Mean shift,0.5,Random Forest,Full model retraining,calibration_slope,0.0,0.0,0.0,6
+Mean shift,1.0,Logistic Regression,No update,brier,-0.4897902604476614,-0.512012147678564,-0.46896382128876235,6
+Mean shift,1.0,Logistic Regression,No update,roc_auc,-0.000992063492063507,-0.002590388007054689,0.00022045855379186166,6
+Mean shift,1.0,Logistic Regression,No update,malignant_recall,0.5948382364233501,0.5800476132178405,0.6096288596288596,6
+Mean shift,1.0,Logistic Regression,No update,accuracy,0.5365497076023392,0.5131578947368421,0.5555921052631579,6
+Mean shift,1.0,Logistic Regression,No update,calibration_intercept,-44.804666047313894,-83.71840298176365,-16.306053385577044,6
+Mean shift,1.0,Logistic Regression,No update,calibration_slope,0.8403903150828125,-1.854619913030342,5.01224581952115,6
+Mean shift,1.0,Logistic Regression,Probability recalibration,brier,0.001584754592284188,-0.004413011582860071,0.007294167926782265,6
+Mean shift,1.0,Logistic Regression,Probability recalibration,roc_auc,0.0008542768959435473,-0.0024815365961199203,0.005649250440917057,6
+Mean shift,1.0,Logistic Regression,Probability recalibration,malignant_recall,0.026494302210102866,0.010554617047687165,0.04504759477755116,6
+Mean shift,1.0,Logistic Regression,Probability recalibration,accuracy,0.0,-0.014619883040935663,0.01315789473684211,6
+Mean shift,1.0,Logistic Regression,Probability recalibration,calibration_intercept,-2.33420808269564,-4.177481476954788,-0.7864319403911453,6
+Mean shift,1.0,Logistic Regression,Probability recalibration,calibration_slope,0.8984692585597931,-0.9318844511285346,3.224307620601483,6
+Mean shift,1.0,Logistic Regression,Full model retraining,brier,0.0,0.0,0.0,6
+Mean shift,1.0,Logistic Regression,Full model retraining,roc_auc,0.0,0.0,0.0,6
+Mean shift,1.0,Logistic Regression,Full model retraining,malignant_recall,0.0,0.0,0.0,6
+Mean shift,1.0,Logistic Regression,Full model retraining,accuracy,0.0,0.0,0.0,6
+Mean shift,1.0,Logistic Regression,Full model retraining,calibration_intercept,0.0,0.0,0.0,6
+Mean shift,1.0,Logistic Regression,Full model retraining,calibration_slope,0.0,0.0,0.0,6
+Mean shift,1.0,Random Forest,No update,brier,-0.44511588942700203,-0.46796003912471557,-0.42822058565049653,6
+Mean shift,1.0,Random Forest,No update,roc_auc,0.1731977513227513,0.14345927028218697,0.20293209876543208,6
+Mean shift,1.0,Random Forest,No update,malignant_recall,0.5429389089167755,0.5284481443388522,0.5561656845539129,6
+Mean shift,1.0,Random Forest,No update,accuracy,0.5087719298245613,0.48391812865497075,0.5350877192982456,6
+Mean shift,1.0,Random Forest,No update,calibration_intercept,-2.7602649483462507,-4.03728296747338,-1.419459528177944,6
+Mean shift,1.0,Random Forest,No update,calibration_slope,3.32031053600808,0.7258605967520427,7.736970804518187,6
+Mean shift,1.0,Random Forest,Probability recalibration,brier,-0.12704707493036901,-0.14412936558329326,-0.10815827625415793,6
+Mean shift,1.0,Random Forest,Probability recalibration,roc_auc,0.1731977513227513,0.14329805996472664,0.20852623456790123,6
+Mean shift,1.0,Random Forest,Probability recalibration,malignant_recall,0.314042629952944,0.2930886243386243,0.33700470464834353,6
+Mean shift,1.0,Random Forest,Probability recalibration,accuracy,0.19590643274853803,0.16666666666666666,0.22076023391812863,6
+Mean shift,1.0,Random Forest,Probability recalibration,calibration_intercept,0.27667151509780125,-0.3882703013351198,1.2357947375886829,6
+Mean shift,1.0,Random Forest,Probability recalibration,calibration_slope,2.511777890185318,-0.16796750243411915,6.834636198167529,6
+Mean shift,1.0,Random Forest,Full model retraining,brier,0.0,0.0,0.0,6
+Mean shift,1.0,Random Forest,Full model retraining,roc_auc,0.0,0.0,0.0,6
+Mean shift,1.0,Random Forest,Full model retraining,malignant_recall,0.0,0.0,0.0,6
+Mean shift,1.0,Random Forest,Full model retraining,accuracy,0.0,0.0,0.0,6
+Mean shift,1.0,Random Forest,Full model retraining,calibration_intercept,0.0,0.0,0.0,6
+Mean shift,1.0,Random Forest,Full model retraining,calibration_slope,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,No update,brier,0.0016317017843516758,-0.002181296528259888,0.006346582911484072,6
+Measurement noise,0.25,Logistic Regression,No update,roc_auc,-0.003830467372134031,-0.011491402116402094,0.0,6
+Measurement noise,0.25,Logistic Regression,No update,malignant_recall,-0.01493570498077392,-0.03579113092633773,0.005612859362859357,6
+Measurement noise,0.25,Logistic Regression,No update,accuracy,-1.850371707708594e-17,-0.004385964912280715,0.00438596491228066,6
+Measurement noise,0.25,Logistic Regression,No update,calibration_intercept,0.5842452600434739,-0.29738549007321596,1.4139581046608418,6
+Measurement noise,0.25,Logistic Regression,No update,calibration_slope,0.06421316999828364,-0.47156747411897726,0.4902346742277081,6
+Measurement noise,0.25,Logistic Regression,Probability recalibration,brier,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+Measurement noise,0.25,Logistic Regression,Full model retraining,brier,-0.00032783431582702013,-0.007536889424786859,0.005849670581908696,6
+Measurement noise,0.25,Logistic Regression,Full model retraining,roc_auc,-0.003003747795414513,-0.013695987654321026,0.003472222222222173,6
+Measurement noise,0.25,Logistic Regression,Full model retraining,malignant_recall,-0.022305510376895116,-0.04585611883666806,0.002286418162401882,6
+Measurement noise,0.25,Logistic Regression,Full model retraining,accuracy,-3.700743415417188e-17,-0.00877192982456145,0.008771929824561356,6
+Measurement noise,0.25,Logistic Regression,Full model retraining,calibration_intercept,0.506983579740703,-0.2915276167679523,1.3188847665240482,6
+Measurement noise,0.25,Logistic Regression,Full model retraining,calibration_slope,0.21614694294571812,-0.4381642737968707,0.7019909447724341,6
+Measurement noise,0.25,Random Forest,No update,brier,-1.4926214725724645e-05,-0.005981998819532465,0.007068608273798817,6
+Measurement noise,0.25,Random Forest,No update,roc_auc,-0.0037477954144620926,-0.011243386243386277,0.0,6
+Measurement noise,0.25,Random Forest,No update,malignant_recall,0.0002122554448135879,-0.010714285714285676,0.01135105204872644,6
+Measurement noise,0.25,Random Forest,No update,accuracy,0.0014619883040935533,0.0,0.00438596491228066,6
+Measurement noise,0.25,Random Forest,No update,calibration_intercept,-0.27441568617655654,-0.7804590826642698,0.08635570504611023,6
+Measurement noise,0.25,Random Forest,No update,calibration_slope,-0.5759534391289692,-1.320859112082441,0.1727962423476562,6
+Measurement noise,0.25,Random Forest,Probability recalibration,brier,-0.00045835538209538135,-0.001375066146286144,0.0,6
+Measurement noise,0.25,Random Forest,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+Measurement noise,0.25,Random Forest,Probability recalibration,malignant_recall,-0.002402069475240206,-0.007206208425720617,0.0,6
+Measurement noise,0.25,Random Forest,Probability recalibration,accuracy,0.0014619883040935533,0.0,0.00438596491228066,6
+Measurement noise,0.25,Random Forest,Probability recalibration,calibration_intercept,0.029684591123101383,0.0,0.08905377336930415,6
+Measurement noise,0.25,Random Forest,Probability recalibration,calibration_slope,0.08982896007998374,0.0,0.2694868802399512,6
+Measurement noise,0.25,Random Forest,Full model retraining,brier,0.0046808991676205655,-0.00272470306850007,0.013699599205940329,6
+Measurement noise,0.25,Random Forest,Full model retraining,roc_auc,-0.004326499118165776,-0.012072172619047576,0.0016555059523809445,6
+Measurement noise,0.25,Random Forest,Full model retraining,malignant_recall,-0.013370640986920071,-0.03193500943500943,0.0042312661498707565,6
+Measurement noise,0.25,Random Forest,Full model retraining,accuracy,0.0058479532163742505,-0.0014619883040935904,0.011695906432748556,6
+Measurement noise,0.25,Random Forest,Full model retraining,calibration_intercept,0.05984207853357421,-0.3078897538574998,0.4139393263401489,6
+Measurement noise,0.25,Random Forest,Full model retraining,calibration_slope,-0.6790162341245014,-1.5359164121597686,0.02877949202059717,6
+Measurement noise,0.5,Logistic Regression,No update,brier,-0.0027640274074897295,-0.007323944151587456,0.0008875242221266776,6
+Measurement noise,0.5,Logistic Regression,No update,roc_auc,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,No update,malignant_recall,0.0024936637397566055,-0.019768153034255276,0.022491025234927686,6
+Measurement noise,0.5,Logistic Regression,No update,accuracy,0.004385964912280715,-0.005847953216374231,0.013157894736842146,6
+Measurement noise,0.5,Logistic Regression,No update,calibration_intercept,-0.1670722301475891,-0.7410257259324792,0.40302704073874224,6
+Measurement noise,0.5,Logistic Regression,No update,calibration_slope,0.307639217769144,0.01926689823660889,0.6580567272314163,6
+Measurement noise,0.5,Logistic Regression,Probability recalibration,brier,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+Measurement noise,0.5,Logistic Regression,Full model retraining,brier,0.0004614563627904275,-0.007650489531199237,0.00763959141187759,6
+Measurement noise,0.5,Logistic Regression,Full model retraining,roc_auc,0.0007164902998236614,-0.001212522045855332,0.002645502645502673,6
+Measurement noise,0.5,Logistic Regression,Full model retraining,malignant_recall,-0.026687914719678723,-0.045670934284093634,-0.007704895155263809,6
+Measurement noise,0.5,Logistic Regression,Full model retraining,accuracy,-0.007309941520467804,-0.019005847953216342,0.004422514619883058,6
+Measurement noise,0.5,Logistic Regression,Full model retraining,calibration_intercept,0.20058787295041713,-0.1751138927512453,0.6047134163855363,6
+Measurement noise,0.5,Logistic Regression,Full model retraining,calibration_slope,0.2640061244039208,-0.03947813562471222,0.5916404815173848,6
+Measurement noise,0.5,Random Forest,No update,brier,-0.01240439041346826,-0.01599779190815365,-0.00872402328597507,6
+Measurement noise,0.5,Random Forest,No update,roc_auc,0.0014880952380952512,0.0,0.004464285714285754,6
+Measurement noise,0.5,Random Forest,No update,malignant_recall,0.03275145398581827,0.0183576193175934,0.04718637805971186,6
+Measurement noise,0.5,Random Forest,No update,accuracy,0.0014619883040935717,-0.004422514619883068,0.00730994152046784,6
+Measurement noise,0.5,Random Forest,No update,calibration_intercept,-0.5577207018777154,-1.001554813290342,-0.11135142381804759,6
+Measurement noise,0.5,Random Forest,No update,calibration_slope,-1.1849319834430387,-1.6995238509320092,-0.6477458541397372,6
+Measurement noise,0.5,Random Forest,Probability recalibration,brier,-0.0007953788982884014,-0.002386136694865204,0.0,6
+Measurement noise,0.5,Random Forest,Probability recalibration,roc_auc,0.0014880952380952512,0.0,0.004464285714285754,6
+Measurement noise,0.5,Random Forest,Probability recalibration,malignant_recall,0.0002502502502502539,0.0,0.0007507507507507616,6
+Measurement noise,0.5,Random Forest,Probability recalibration,accuracy,0.0014619883040935717,0.0,0.004385964912280715,6
+Measurement noise,0.5,Random Forest,Probability recalibration,calibration_intercept,0.011454730329571014,0.0,0.034364190988713045,6
+Measurement noise,0.5,Random Forest,Probability recalibration,calibration_slope,0.10765527189229511,0.0,0.3229658156768853,6
+Measurement noise,0.5,Random Forest,Full model retraining,brier,-0.004733110562786783,-0.007007210340345712,-0.00229473400411012,6
+Measurement noise,0.5,Random Forest,Full model retraining,roc_auc,0.001432980599647286,-0.002536651234567886,0.0054012345679012586,6
+Measurement noise,0.5,Random Forest,Full model retraining,malignant_recall,-0.0063478188478188384,-0.029296987734487738,0.012860368797868768,6
+Measurement noise,0.5,Random Forest,Full model retraining,accuracy,-0.005847953216374231,-0.013157894736842054,0.0014619883040935908,6
+Measurement noise,0.5,Random Forest,Full model retraining,calibration_intercept,-0.22048542764274784,-0.823137986372052,0.22963670193029634,6
+Measurement noise,0.5,Random Forest,Full model retraining,calibration_slope,-1.8168957910852725,-4.376570036414958,-0.19544945224834867,6
+Measurement noise,1.0,Logistic Regression,No update,brier,-0.01253401251509572,-0.023144603514773408,-0.0012268964922017844,6
+Measurement noise,1.0,Logistic Regression,No update,roc_auc,0.0030313051146384495,-0.0015983245149911822,0.009975749559082888,6
+Measurement noise,1.0,Logistic Regression,No update,malignant_recall,0.06460211017528712,0.02444804750626002,0.09855319984181397,6
+Measurement noise,1.0,Logistic Regression,No update,accuracy,0.030701754385964914,0.00877192982456143,0.051169590643274844,6
+Measurement noise,1.0,Logistic Regression,No update,calibration_intercept,-0.44663319577341465,-0.7246817187112223,-0.11421555923595283,6
+Measurement noise,1.0,Logistic Regression,No update,calibration_slope,0.46211032750086956,0.22667168956228578,0.7322634044158498,6
+Measurement noise,1.0,Logistic Regression,Probability recalibration,brier,-0.0023071385589970906,-0.011318557495644314,0.00856493454972021,6
+Measurement noise,1.0,Logistic Regression,Probability recalibration,roc_auc,0.0030313051146384495,-0.0013819995590828814,0.009595458553791902,6
+Measurement noise,1.0,Logistic Regression,Probability recalibration,malignant_recall,0.0013996828727895205,-0.05235442964750181,0.055051524934648766,6
+Measurement noise,1.0,Logistic Regression,Probability recalibration,accuracy,0.016081871345029253,-0.0014619883040935353,0.03362573099415204,6
+Measurement noise,1.0,Logistic Regression,Probability recalibration,calibration_intercept,0.1994039239550404,-0.20280313261292093,0.6125838701764658,6
+Measurement noise,1.0,Logistic Regression,Probability recalibration,calibration_slope,-0.23769165543375181,-0.4550266610418198,-0.06327882772582714,6
+Measurement noise,1.0,Logistic Regression,Full model retraining,brier,-0.005926709165212291,-0.016398914201348286,0.0,6
+Measurement noise,1.0,Logistic Regression,Full model retraining,roc_auc,0.006723985890652577,0.0,0.01752645502645502,6
+Measurement noise,1.0,Logistic Regression,Full model retraining,malignant_recall,0.012746824043358085,-0.010269576379974277,0.04851004851004853,6
+Measurement noise,1.0,Logistic Regression,Full model retraining,accuracy,0.010233918128654965,0.0,0.027777777777777752,6
+Measurement noise,1.0,Logistic Regression,Full model retraining,calibration_intercept,-0.06082835033540169,-0.18751540617826032,0.005030355172055221,6
+Measurement noise,1.0,Logistic Regression,Full model retraining,calibration_slope,0.23763278697319526,0.0,0.5026598565940742,6
+Measurement noise,1.0,Random Forest,No update,brier,-0.025114709184841166,-0.031057858316858273,-0.019282891979406077,6
+Measurement noise,1.0,Random Forest,No update,roc_auc,0.011408730158730155,-0.000992063492063507,0.022762345679012363,6
+Measurement noise,1.0,Random Forest,No update,malignant_recall,0.06729061742740299,0.004700286601110752,0.11124549591413654,6
+Measurement noise,1.0,Random Forest,No update,accuracy,0.017543859649122806,-0.007309941520467823,0.04824561403508774,6
+Measurement noise,1.0,Random Forest,No update,calibration_intercept,-0.6275860588891691,-0.8825554644859842,-0.2909155842289775,6
+Measurement noise,1.0,Random Forest,No update,calibration_slope,-0.4697965261757912,-0.7481945677670896,-0.2146324340666698,6
+Measurement noise,1.0,Random Forest,Probability recalibration,brier,0.0004680178865202646,-0.00724202623209873,0.008862204463930962,6
+Measurement noise,1.0,Random Forest,Probability recalibration,roc_auc,0.011408730158730137,-0.0008818342151675762,0.023214285714285725,6
+Measurement noise,1.0,Random Forest,Probability recalibration,malignant_recall,0.002532866393062827,-0.031216935592700574,0.04001645373596591,6
+Measurement noise,1.0,Random Forest,Probability recalibration,accuracy,0.010233918128654965,-0.005847953216374306,0.030701754385964952,6
+Measurement noise,1.0,Random Forest,Probability recalibration,calibration_intercept,0.002010355905829727,-0.2188648719439215,0.25411687161841173,6
+Measurement noise,1.0,Random Forest,Probability recalibration,calibration_slope,0.908849345591552,0.4772114580036,1.2878958038483275,6
+Measurement noise,1.0,Random Forest,Full model retraining,brier,0.0,0.0,0.0,6
+Measurement noise,1.0,Random Forest,Full model retraining,roc_auc,0.0,0.0,0.0,6
+Measurement noise,1.0,Random Forest,Full model retraining,malignant_recall,0.0,0.0,0.0,6
+Measurement noise,1.0,Random Forest,Full model retraining,accuracy,0.0,0.0,0.0,6
+Measurement noise,1.0,Random Forest,Full model retraining,calibration_intercept,0.0,0.0,0.0,6
+Measurement noise,1.0,Random Forest,Full model retraining,calibration_slope,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,No update,brier,-0.001394199761859616,-0.004626489584270641,0.00100073066564598,6
+No shift,0.0,Logistic Regression,No update,roc_auc,-0.0018738977072310463,-0.005621693121693139,0.0,6
+No shift,0.0,Logistic Regression,No update,malignant_recall,0.00390825220660727,-0.011419443353646438,0.019268230981220175,6
+No shift,0.0,Logistic Regression,No update,accuracy,0.008771929824561412,-1.850371707708594e-17,0.01900584795321636,6
+No shift,0.0,Logistic Regression,No update,calibration_intercept,1.0533295651577619,-1.0755340994207288,3.2779923957043304,6
+No shift,0.0,Logistic Regression,No update,calibration_slope,0.2725611448041555,-1.0910705885580956,1.9321750319426523,6
+No shift,0.0,Logistic Regression,Probability recalibration,brier,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,Probability recalibration,malignant_recall,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,Probability recalibration,accuracy,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,Probability recalibration,calibration_intercept,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,Probability recalibration,calibration_slope,0.0,0.0,0.0,6
+No shift,0.0,Logistic Regression,Full model retraining,brier,-0.0024642745231844686,-0.006911182756541275,0.0014496766382185013,6
+No shift,0.0,Logistic Regression,Full model retraining,roc_auc,-0.0008818342151675022,-0.005842151675484963,0.0025903880070547447,6
+No shift,0.0,Logistic Regression,Full model retraining,malignant_recall,-0.004065040650406508,-0.016071090943467592,0.007751937984496138,6
+No shift,0.0,Logistic Regression,Full model retraining,accuracy,0.00730994152046784,-0.0029239766081871434,0.016081871345029253,6
+No shift,0.0,Logistic Regression,Full model retraining,calibration_intercept,0.7277619578469023,-1.1734279539640258,2.9393296411202567,6
+No shift,0.0,Logistic Regression,Full model retraining,calibration_slope,-0.32839946706277606,-2.4158553159101164,1.7591347935337835,6
+No shift,0.0,Random Forest,No update,brier,0.0026793916296188503,-0.001361002204588041,0.0072553857413462965,6
+No shift,0.0,Random Forest,No update,roc_auc,0.0,0.0,0.0,6
+No shift,0.0,Random Forest,No update,malignant_recall,-0.0028989536147542663,-0.018728511119815477,0.01028190052580293,6
+No shift,0.0,Random Forest,No update,accuracy,1.850371707708594e-17,-0.0058479532163742505,0.0073099415204678775,6
+No shift,0.0,Random Forest,No update,calibration_intercept,-0.07430086174786626,-0.9454402080856079,0.7179871038425146,6
+No shift,0.0,Random Forest,No update,calibration_slope,-0.17634458179896426,-1.0890325633348525,0.9154623063381923,6
+No shift,0.0,Random Forest,Probability recalibration,brier,0.0003408214149413288,0.0,0.0010224642448239864,6
+No shift,0.0,Random Forest,Probability recalibration,roc_auc,0.0,0.0,0.0,6
+No shift,0.0,Random Forest,Probability recalibration,malignant_recall,0.0034271284271284266,0.0,0.01028138528138528,6
+No shift,0.0,Random Forest,Probability recalibration,accuracy,0.0,0.0,0.0,6
+No shift,0.0,Random Forest,Probability recalibration,calibration_intercept,-0.028209449765651217,-0.08462834929695366,0.0,6
+No shift,0.0,Random Forest,Probability recalibration,calibration_slope,0.014016418883795198,0.0,0.04204925665138559,6
+No shift,0.0,Random Forest,Full model retraining,brier,0.003935181363418426,-0.0009751602203757324,0.00894742163355758,6
+No shift,0.0,Random Forest,Full model retraining,roc_auc,0.00038580246913581345,-0.0004967206790123255,0.0013509975749559438,6
+No shift,0.0,Random Forest,Full model retraining,malignant_recall,0.0006919052086626909,-0.01610748349878786,0.014621945563522384,6
+No shift,0.0,Random Forest,Full model retraining,accuracy,-0.0014619883040935717,-0.004385964912280715,0.0,6
+No shift,0.0,Random Forest,Full model retraining,calibration_intercept,-0.06577264600285881,-0.6418550680781355,0.6322656386946791,6
+No shift,0.0,Random Forest,Full model retraining,calibration_slope,-1.3622415949570617,-4.873632422688825,1.15634319270644,6

@@ -1,0 +1,49 @@
+{
+  "stage": "6 - Adaptive strategy selection",
+  "dataset": "Wisconsin Diagnostic Breast Cancer (569 rows, 30 numeric features)",
+  "seeds": [
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "models": [
+    "Logistic Regression",
+    "Random Forest"
+  ],
+  "scenarios": [
+    "No shift",
+    "Covariate mean shift (+0.5 SD)",
+    "Measurement noise (0.5 SD)",
+    "MCAR missingness (20%)",
+    "Outcome prevalence shift (balanced sample)"
+  ],
+  "split": "Stratified 80:20 train/test; training split into 70:30 fit/adaptation; adaptation split 50:50 monitoring/update. Monitoring data select policy; update data fit recalibration/retraining; test remains untouched.",
+  "target": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "selector_rule": {
+    "retrain": "delta ROC-AUC <= -0.03 OR delta malignant recall <= -0.10 OR delta Brier >= 0.05",
+    "recalibrate": "if not retrain and delta Brier >= 0.02 OR abs(calibration intercept) >= 0.50 OR calibration slope < 0.80 OR > 1.20",
+    "no_update": "otherwise"
+  },
+  "reference": "Same monitoring observations before synthetic shift; observed metrics are computed after shift. This is a controlled paired diagnostic, not a deployable unsupervised detector.",
+  "comparison": "Adaptive selector vs fixed no-update, fixed recalibration, fixed retraining. All use identical fit/update/test partitions.",
+  "bootstrap": "2,000 paired bootstrap resamples of 10 seed-level differences; intervals reflect split/seed variability only.",
+  "limitations": [
+    "Only 10 seeds and two model families (Logistic Regression and Random Forest).",
+    "Synthetic shifts on a small benchmark dataset; not external clinical validation.",
+    "The selector uses labelled monitoring outcomes and a paired unshifted reference; it is not an unsupervised real-world drift detector.",
+    "The small monitoring and update partitions make calibration estimates noisy.",
+    "The thresholds are prespecified heuristic thresholds, not clinically validated or optimized.",
+    "Balanced prevalence condition uses balanced resampling, not a prospective prior-shift design.",
+    "Repeated random splits overlap in source observations; bootstrap intervals are not population-level confidence intervals."
+  ]
+}

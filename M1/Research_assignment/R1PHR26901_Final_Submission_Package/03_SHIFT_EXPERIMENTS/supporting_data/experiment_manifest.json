@@ -1,0 +1,27 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn load_breast_cancer; UCI WDBC)",
+  "n": 569,
+  "features": 30,
+  "train_n": 455,
+  "test_n": 114,
+  "split": "stratified 80:20",
+  "random_state": 42,
+  "target_mapping": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "models": [
+    "Logistic Regression",
+    "Random Forest",
+    "SVM RBF",
+    "Extra Trees"
+  ],
+  "scenarios": [
+    "No shift",
+    "Covariate mean shift (+0.5 SD)",
+    "Measurement noise (0.5 SD)",
+    "MCAR missingness (20%)",
+    "Outcome prevalence shift (balanced sample)"
+  ],
+  "warning": "All shifts are controlled synthetic transformations of the held-out test set; they are not observed temporal, hospital, scanner or population shifts. Outcome-prevalence shift uses balanced resampling of the held-out cases and changes test prevalence by design."
+}

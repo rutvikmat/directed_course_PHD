@@ -1,0 +1,6 @@
+Stage 7 reproducibility note
+
+The Stage 7 Python script performs 1,000 paired bootstrap resamples and uses six seeds (300–305). 
+The original generated stage7_manifest.json contained stale metadata claiming 2,000 resamples and ten seeds. 
+The manifest included in this final package has been corrected to match the executable script and actual Stage 7 experiment. 
+The report correctly describes six seeds and 1,000 bootstrap resamples.

@@ -1,0 +1,37 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (569 observations, 30 features)",
+  "random_seeds": [
+    100,
+    101,
+    102,
+    103,
+    104
+  ],
+  "n_seeds": 5,
+  "split": "Stratified 80:20 train/test; then stratified 70:30 fit/adaptation split within training",
+  "strategies": {
+    "No update": "Fit model on fit subset; unchanged.",
+    "Probability recalibration": "Fit logistic calibration mapping on labelled shifted adaptation subset; base model unchanged.",
+    "Full model retraining": "Refit same model family on fit subset transformed to shift plus shifted labelled adaptation subset."
+  },
+  "shifts": [
+    "No shift",
+    "Covariate mean shift (+0.5 SD)",
+    "Measurement noise (0.5 SD)",
+    "MCAR missingness (20%)",
+    "Outcome prevalence shift (balanced sample)"
+  ],
+  "target": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "bootstrap": "2000 paired bootstrap resamples of the 20 seed-level paired differences; percentile 95% intervals.",
+  "calibration": "Logistic calibration regression of outcome on logit(predicted P(benign)); ideal intercept 0, slope 1.",
+  "caveats": [
+    "Repeated random splits overlap in observations and are not independent external replications.",
+    "Bootstrap intervals quantify variability across these random seeds/splits, not population-level clinical uncertainty.",
+    "Synthetic shifts are not real temporal/site/population shifts.",
+    "Adaptation uses labelled data.",
+    "The balanced prevalence condition uses balanced resampling, not a prospective prior-shift design."
+  ]
+}
