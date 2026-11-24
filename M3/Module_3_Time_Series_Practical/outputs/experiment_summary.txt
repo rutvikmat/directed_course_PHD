@@ -1,0 +1,13 @@
+EXPERIMENT SUMMARY
+==================
+Dataset: Metro Interstate Traffic Volume
+Target: traffic_volume (hourly)
+Total observations used: 18000
+Training observations: 14400
+Testing observations: 3600
+
+Best model by RMSE: XGBoost
+Best RMSE: 204.2404
+
+Interpretation: Lower MAE and RMSE indicate smaller forecast errors. R-squared describes the proportion of variance explained, while MAPE expresses percentage error and should be interpreted cautiously when actual traffic volume is zero or close to zero.
+Use the saved metrics and plots to write the final observations based on the actual run; do not assume a model is best before examining results.

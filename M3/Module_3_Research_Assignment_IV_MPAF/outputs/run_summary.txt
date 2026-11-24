@@ -1,0 +1,10 @@
+IV-MPAF RESEARCH EXPERIMENT SUMMARY
+===================================
+Rows: 6000
+Sensors: 10
+Training fraction: 0.7
+Validation fraction: 0.1
+
+Metrics are in metrics.csv. Interpret actual results; no winning model is assumed.
+Artificial missingness and level shifts are controlled stress tests.
+The drift experiment is synthetic and should be reported as such.

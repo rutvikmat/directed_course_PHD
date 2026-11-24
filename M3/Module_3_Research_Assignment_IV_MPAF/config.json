@@ -1,0 +1,33 @@
+{
+  "data_file": "data/PEMS-BAY.csv",
+  "timestamp_column": "timestamp",
+  "target_column": "speed",
+  "max_sensors": 10,
+  "max_observations": 6000,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.1,
+  "lags": [
+    1,
+    2,
+    3,
+    6,
+    12
+  ],
+  "rolling_windows": [
+    3,
+    6,
+    12
+  ],
+  "missing_rates": [
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "drift_magnitude": 0.2,
+  "drift_start_fraction": 0.8,
+  "random_seed": 42,
+  "xgboost_estimators": 120,
+  "adaptive_recent_window": 1000,
+  "max_test_rows_per_sensor": 2000
+}
