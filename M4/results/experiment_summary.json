@@ -1,0 +1,43 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn bundled)",
+  "n_samples": 569,
+  "n_features": 30,
+  "train_n": 455,
+  "test_n": 114,
+  "random_state": 42,
+  "test_size": 0.2,
+  "models": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.956140350877193,
+      "precision_benign": 0.9855072463768116,
+      "recall_benign": 0.9444444444444444,
+      "f1_benign": 0.9645390070921985,
+      "roc_auc": 0.9953703703703703,
+      "brier_score": 0.025990786390543297,
+      "log_loss": 0.08898043145301723,
+      "tn_fp_fn_tp": "41,1,4,68"
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.9473684210526315,
+      "precision_benign": 0.9583333333333334,
+      "recall_benign": 0.9583333333333334,
+      "f1_benign": 0.9583333333333334,
+      "roc_auc": 0.9930555555555556,
+      "brier_score": 0.03396242777752287,
+      "log_loss": 0.11698888840076509,
+      "tn_fp_fn_tp": "39,3,3,69"
+    }
+  ],
+  "shap": {
+    "available": true,
+    "n_explained": 114
+  },
+  "stability_rows": 5,
+  "target_encoding": {
+    "0": "malignant",
+    "1": "benign"
+  },
+  "caution": "Educational benchmark only; not for clinical use."
+}

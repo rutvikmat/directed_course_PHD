@@ -1,0 +1,9 @@
+model,subgroup,n,accuracy,recall_malignant
+Logistic Regression,Q4_high_radius,29,0.9655172413793104,1.0
+Logistic Regression,Q1_low_radius,30,1.0,1.0
+Logistic Regression,Q3,28,0.8571428571428571,0.9166666666666666
+Logistic Regression,Q2,27,1.0,1.0
+Random Forest,Q4_high_radius,29,0.9655172413793104,1.0
+Random Forest,Q1_low_radius,30,0.9666666666666667,0.0
+Random Forest,Q3,28,0.8571428571428571,0.8333333333333334
+Random Forest,Q2,27,1.0,1.0

@@ -1,0 +1,6 @@
+relative_noise_sd,base_probability_benign,perturbed_probability_benign,absolute_probability_change,top5_global_features
+0.0,0.0,0.0,0.0,worst area;worst perimeter;worst concave points;mean concave points;worst radius
+0.01,0.0,0.0,0.0,worst area;worst perimeter;worst concave points;mean concave points;worst radius
+0.03,0.0,0.0,0.0,worst area;worst perimeter;worst concave points;mean concave points;worst radius
+0.05,0.0,0.0,0.0,worst area;worst perimeter;worst concave points;mean concave points;worst radius
+0.1,0.0,0.0,0.0,worst area;worst perimeter;worst concave points;mean concave points;worst radius

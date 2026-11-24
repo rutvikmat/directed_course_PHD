@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-24T04:56:04.899839+00:00",
+  "python_version": "3.13.5",
+  "scikit_learn_version": "1.8.0",
+  "data_source": "synthetic_demo",
+  "n_rows": 2400,
+  "n_predictors": 10,
+  "target": "risk_outcome",
+  "positive_class": 1,
+  "random_state": 42,
+  "test_size": 0.25,
+  "train_rows": 1800,
+  "test_rows": 600,
+  "demographic_attributes_excluded_from_primary_model": [
+    "age",
+    "sex"
+  ],
+  "selected_model_by_test_roc_auc_for_demonstration": "Hist Gradient Boosting",
+  "optional_shap_status": "SHAP summary generated.",
+  "privacy_demo_warning": "NOT ESTABLISHED - educational perturbation only"
+}

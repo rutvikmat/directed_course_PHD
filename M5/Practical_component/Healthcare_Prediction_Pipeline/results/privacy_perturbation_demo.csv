@@ -1,0 +1,2 @@
+n_records,clip_bound,noise_multiplier_demo_only,clipped_mean,perturbed_mean_demo_only,formal_epsilon,formal_delta,privacy_guarantee
+1800,1.0,0.8,0.325,0.3251354298132242,,,NOT ESTABLISHED - educational perturbation only
